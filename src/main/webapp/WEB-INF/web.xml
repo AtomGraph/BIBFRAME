@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" 
+    id="graphity-bibframe" version="3.0">
+    <display-name>Graphity BIBFRAME</display-name>
+    <description>Basic BIBFRAME RDF editor</description>
+    <context-param>
+        <param-name>http://graphity.org/gp#datasetLocation</param-name>
+        <param-value>org/graphity/bibframe/dataset/dataset.ttl</param-value>
+    </context-param>
+    <context-param>
+        <param-name>http://graphity.org/gp#ontology</param-name>
+        <param-value>http://graphity.org/bibframe#</param-value>
+    </context-param>
+    <context-param>
+        <param-name>http://graphity.org/gc#stylesheet</param-name>
+        <param-value>static/org/graphity/client/xsl/global-xhtml.xsl</param-value>
+    </context-param>
+    <context-param>
+        <param-name>http://graphity.org/gs#resultLimit</param-name>
+        <param-value>100</param-value>
+    </context-param>
+    <filter>
+        <filter-name>index</filter-name>
+        <filter-class>com.sun.jersey.spi.container.servlet.ServletContainer</filter-class>
+        <init-param>
+            <param-name>javax.ws.rs.Application</param-name>
+            <param-value>org.graphity.client.ApplicationBase</param-value>
+        </init-param>
+        <init-param>
+            <param-name>com.sun.jersey.config.property.WebPageContentRegex</param-name>
+            <param-value>(/static/.*)|(/robots\.txt)</param-value>
+        </init-param>
+        <init-param>
+	    <param-name>com.sun.jersey.spi.container.ContainerRequestFilters</param-name>
+	    <param-value>org.graphity.client.filter.PostReplaceFilter</param-value>
+	</init-param>	
+    </filter>
+    <filter-mapping>
+        <filter-name>index</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+</web-app>

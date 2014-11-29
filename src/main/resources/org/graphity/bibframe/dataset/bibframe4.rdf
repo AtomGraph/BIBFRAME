@@ -1,0 +1,148 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <bf:Work xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/HYP1417101895/7856975">
+    <bf:authorizedAccessPoint/>
+    <bf:derivedFrom rdf:resource="http://bibframe.org/resources/HYP1417101895/7856975.marcxml.xml"/>
+    <bf:authorizedAccessPoint xml:lang="x-bf-hash">work</bf:authorizedAccessPoint>
+  </bf:Work>
+  <bf:Work xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/HYP1417101895/8081246">
+    <rdf:type rdf:resource="http://bibframe.org/vocab/Text"/>
+    <rdf:type rdf:resource="http://bibframe.org/vocab/StillImage"/>
+    <bf:authorizedAccessPoint>Aub, Max, 1903-1972 Correspondence</bf:authorizedAccessPoint>
+    <madsrdf:authoritativeLabel>Correspondence. Selections</madsrdf:authoritativeLabel>
+    <bf:workTitle rdf:resource="http://bibframe.org/resources/HYP1417101895/8081246title7"/>
+    <relators:aut rdf:resource="http://bibframe.org/resources/HYP1417101895/8081246person8"/>
+    <relators:rcp rdf:resource="http://bibframe.org/resources/HYP1417101895/8081246person9"/>
+    <bf:formDesignation>Selections</bf:formDesignation>
+    <bf:language rdf:resource="http://id.loc.gov/vocabulary/languages/spa"/>
+    <bf:subject rdf:resource="http://bibframe.org/resources/HYP1417101895/8081246person12"/>
+    <bf:subject rdf:resource="http://bibframe.org/resources/HYP1417101895/8081246person13"/>
+    <bf:subject rdf:resource="http://bibframe.org/resources/HYP1417101895/8081246topic14"/>
+    <bf:subject rdf:resource="http://bibframe.org/resources/HYP1417101895/8081246person15"/>
+    <bf:classificationLcc rdf:resource="http://id.loc.gov/authorities/classification/PQ6601.U2"/>
+    <bf:classification rdf:resource="http://bibframe.org/resources/HYP1417101895/8081246classification17"/>
+    <bf:derivedFrom rdf:resource="http://bibframe.org/resources/HYP1417101895/8081246.marcxml.xml"/>
+    <bf:authorizedAccessPoint xml:lang="x-bf-hash">aubelenaaubmax19031972correspondenceselectionsspaworktext</bf:authorizedAccessPoint>
+  </bf:Work>
+  <bf:Instance xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/HYP1417101895/8081246instance21">
+    <bf:isbn10 rdf:resource="http://isbn.example.org/849415415X"/>
+    <bf:isbn13 rdf:resource="http://isbn.example.org/9788494154157"/>
+    <rdf:type rdf:resource="http://bibframe.org/vocab/Monograph"/>
+    <bf:instanceTitle rdf:resource="http://bibframe.org/resources/HYP1417101895/8081246title26"/>
+    <bf:publication>
+      <bf:Provider>
+        <bf:providerName>
+          <bf:Organization>
+            <bf:label>Del Centro Editores</bf:label>
+          </bf:Organization>
+        </bf:providerName>
+        <bf:providerPlace>
+          <bf:Place>
+            <bf:label>Madrid </bf:label>
+          </bf:Place>
+        </bf:providerPlace>
+        <bf:providerDate>2013</bf:providerDate>
+      </bf:Provider>
+    </bf:publication>
+    <bf:modeOfIssuance>single unit</bf:modeOfIssuance>
+    <bf:extent>1 portfolio (11 folded leaves), 36 items :</bf:extent>
+    <bf:dimensions>26 cm</bf:dimensions>
+    <bf:illustrationNote>illustrations, some color ;</bf:illustrationNote>
+    <bf:titleStatement>Cartas a mi hija Elena</bf:titleStatement>
+    <bf:responsibilityStatement>de Max Aub.</bf:responsibilityStatement>
+    <bf:providerStatement>Madrid : Del Centro Editores, 2013.</bf:providerStatement>
+    <bf:note>Contains facsimile reproductions of the following items: 5 letters (2 holograph, 3 typescript), 19 postcards, 4 photoprints, 2 short plays (holograph), 1 engraving (inscribed), 2 book covers with inner leaves (inscribed), and the poem "¿Te acuerdas, Elena?" in 3 versions (original holograph, revised holograph, and typescript). Portfolio contains transcriptions of holograph manuscripts.</bf:note>
+    <bf:note>Housed in a fabric-covered clamshell box with magnetic flap closure. Portfolio is enclosed in a paper jacket and separated from other items by a removable dividing board.</bf:note>
+    <bf:note>One hundred copies were produced, each numbered and signed by the (unnamed) editor.</bf:note>
+    <bf:note>Princeton copy is number 40 of 100.</bf:note>
+    <bf:systemNumber rdf:resource="http://www.worldcat.org/oclc/864432318"/>
+    <bf:systemNumber rdf:resource="http://www.worldcat.org/oclc/864432318"/>
+    <bf:mediaCategory rdf:resource="http://id.loc.gov/vocabulary/mediaTypes/n"/>
+    <bf:carrierCategory rdf:resource="http://id.loc.gov/vocabulary/carriers/nc"/>
+    <bf:derivedFrom rdf:resource="http://bibframe.org/resources/HYP1417101895/8081246.marcxml.xml"/>
+    <bf:instanceOf rdf:resource="http://bibframe.org/resources/HYP1417101895/8081246"/>
+  </bf:Instance>
+  <bf:Annotation xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/HYP1417101895/8081246annotation20">
+    <bf:derivedFrom rdf:resource="http://bibframe.org/resources/HYP1417101895/8081246.marcxml.xml"/>
+    <bf:descriptionSource rdf:resource="http://id.loc.gov/vocabulary/organizations/c3l"/>
+    <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/oclcq"/>
+    <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/njp"/>
+    <bf:descriptionLanguage rdf:resource="http://id.loc.gov/vocabulary/languages/eng"/>
+    <bf:descriptionConventions rdf:resource="http://id.loc.gov/vocabulary/descriptionConventions/isbd"/>
+    <bf:generationProcess>DLC transform-tool:2014-11-21-T17:14:00</bf:generationProcess>
+    <bf:changeDate>2014-07-25T13:00</bf:changeDate>
+    <bf:annotates rdf:resource="http://bibframe.org/resources/HYP1417101895/8081246"/>
+  </bf:Annotation>
+  <bf:Annotation xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/HYP1417101895/7856975annotation7">
+    <bf:derivedFrom rdf:resource="http://bibframe.org/resources/HYP1417101895/7856975.marcxml.xml"/>
+    <bf:descriptionConventions rdf:resource="http://id.loc.gov/vocabulary/descriptionConventions/nonisbd"/>
+    <bf:generationProcess>DLC transform-tool:2014-11-21-T17:14:00</bf:generationProcess>
+    <bf:changeDate>2014-07-24T12:05</bf:changeDate>
+    <bf:annotates rdf:resource="http://bibframe.org/resources/HYP1417101895/7856975"/>
+  </bf:Annotation>
+  <bf:HeldItem xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/HYP1417101895/8081246helditem45">
+    <bf:label>PQ6601.U2 Z48 2013</bf:label>
+    <bf:shelfMarkLcc>PQ6601.U2 Z48 2013</bf:shelfMarkLcc>
+    <bf:holdingFor rdf:resource="http://bibframe.org/resources/HYP1417101895/8081246instance21"/>
+  </bf:HeldItem>
+  <bf:Title xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/HYP1417101895/8081246title7">
+    <bf:titleValue>Correspondence.</bf:titleValue>
+  </bf:Title>
+  <bf:Person xmlns:bf="http://bibframe.org/vocab/" rdf:about="http://bibframe.org/resources/HYP1417101895/8081246person8">
+    <bf:label xmlns:relators="http://id.loc.gov/vocabulary/relators/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">Aub, Max, 1903-1972</bf:label>
+    <bf:authorizedAccessPoint xmlns:relators="http://id.loc.gov/vocabulary/relators/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">Aub, Max, 1903-1972</bf:authorizedAccessPoint>
+    <bf:hasAuthority rdf:resource="http://id.loc.gov/authorities/names/n79077301"/>
+  </bf:Person>
+  <bf:Person xmlns:bf="http://bibframe.org/vocab/" rdf:about="http://bibframe.org/resources/HYP1417101895/8081246person9">
+    <bf:label xmlns:relators="http://id.loc.gov/vocabulary/relators/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">Aub, Elena</bf:label>
+    <bf:authorizedAccessPoint xmlns:relators="http://id.loc.gov/vocabulary/relators/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">Aub, Elena</bf:authorizedAccessPoint>
+    <bf:hasAuthority rdf:resource="http://id.loc.gov/authorities/names/n94086657"/>
+  </bf:Person>
+  <bf:Person xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/HYP1417101895/8081246person12">
+    <bf:authorizedAccessPoint>Aub, Max, 1903-1972--Correspondence.</bf:authorizedAccessPoint>
+    <bf:label>Aub, Max, 1903-1972--Correspondence.</bf:label>
+    <bf:hasAuthority>
+      <madsrdf:Authority>
+        <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+        <madsrdf:authoritativeLabel>Aub, Max, 1903-1972--Correspondence.</madsrdf:authoritativeLabel>
+        <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/authorities/subjects"/>
+      </madsrdf:Authority>
+    </bf:hasAuthority>
+  </bf:Person>
+  <bf:Person xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/HYP1417101895/8081246person13">
+    <bf:authorizedAccessPoint>Aub, Max, 1903-1972--Archives.</bf:authorizedAccessPoint>
+    <bf:label>Aub, Max, 1903-1972--Archives.</bf:label>
+    <bf:hasAuthority>
+      <madsrdf:Authority>
+        <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+        <madsrdf:authoritativeLabel>Aub, Max, 1903-1972--Archives.</madsrdf:authoritativeLabel>
+        <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/authorities/subjects"/>
+      </madsrdf:Authority>
+    </bf:hasAuthority>
+  </bf:Person>
+  <bf:Topic xmlns:bf="http://bibframe.org/vocab/" rdf:about="http://bibframe.org/resources/HYP1417101895/8081246topic14">
+    <bf:authorizedAccessPoint xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/">Authors, Spanish--20th century--Correspondence</bf:authorizedAccessPoint>
+    <bf:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/">Authors, Spanish--20th century--Correspondence</bf:label>
+    <bf:hasAuthority rdf:resource="http://id.loc.gov/authorities/subjects/sh2007101497"/>
+  </bf:Topic>
+  <bf:Person xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/HYP1417101895/8081246person15">
+    <bf:authorizedAccessPoint>Aub, Elena--Correspondence.</bf:authorizedAccessPoint>
+    <bf:label>Aub, Elena--Correspondence.</bf:label>
+    <bf:hasAuthority>
+      <madsrdf:Authority>
+        <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+        <madsrdf:authoritativeLabel>Aub, Elena--Correspondence.</madsrdf:authoritativeLabel>
+        <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/authorities/subjects"/>
+      </madsrdf:Authority>
+    </bf:hasAuthority>
+  </bf:Person>
+  <bf:Classification xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/HYP1417101895/8081246classification17">
+    <bf:classificationScheme>ddc</bf:classificationScheme>
+    <bf:classificationNumber>860</bf:classificationNumber>
+    <bf:label>860</bf:label>
+    <bf:classificationEdition>full</bf:classificationEdition>
+    <bf:classificationEdition>21</bf:classificationEdition>
+  </bf:Classification>
+  <bf:Title xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/HYP1417101895/8081246title26">
+    <bf:titleValue>Cartas a mi hija Elena</bf:titleValue>
+  </bf:Title>
+</rdf:RDF>

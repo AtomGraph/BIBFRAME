@@ -1,0 +1,255 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <bf:Work xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/Yjc1417101980/8064071">
+    <bf:authorizedAccessPoint/>
+    <bf:derivedFrom rdf:resource="http://bibframe.org/resources/Yjc1417101980/8064071.marcxml.xml"/>
+    <bf:authorizedAccessPoint xml:lang="x-bf-hash">work</bf:authorizedAccessPoint>
+  </bf:Work>
+  <bf:Work xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/Yjc1417101980/8313100">
+    <rdf:type rdf:resource="http://bibframe.org/vocab/MovingImage"/>
+    <bf:authorizedAccessPoint>Coelho, Guilherme Um domingo com Frederico Morais</bf:authorizedAccessPoint>
+    <bf:workTitle rdf:resource="http://bibframe.org/resources/Yjc1417101980/8313100title5"/>
+    <bf:title xml:lang="x-bf-sort">domingo com Frederico Morais</bf:title>
+    <relators:fmd rdf:resource="http://bibframe.org/resources/Yjc1417101980/8313100person7"/>
+    <relators:aus rdf:resource="http://bibframe.org/resources/Yjc1417101980/8313100person8"/>
+    <relators:aus rdf:resource="http://bibframe.org/resources/Yjc1417101980/8313100person9"/>
+    <relators:flm rdf:resource="http://bibframe.org/resources/Yjc1417101980/8313100person10"/>
+    <relators:aus rdf:resource="http://bibframe.org/resources/Yjc1417101980/8313100person11"/>
+    <relators:ive rdf:resource="http://bibframe.org/resources/Yjc1417101980/8313100person12"/>
+    <relators:ive rdf:resource="http://bibframe.org/resources/Yjc1417101980/8313100person13"/>
+    <relators:ive rdf:resource="http://bibframe.org/resources/Yjc1417101980/8313100person14"/>
+    <relators:ive rdf:resource="http://bibframe.org/resources/Yjc1417101980/8313100person15"/>
+    <relators:prn rdf:resource="http://bibframe.org/resources/Yjc1417101980/8313100organization16"/>
+    <bf:language rdf:resource="http://id.loc.gov/vocabulary/languages/por"/>
+    <bf:language rdf:resource="http://bibframe.org/resources/Yjc1417101980/8313100language18"/>
+    <bf:language rdf:resource="http://bibframe.org/resources/Yjc1417101980/8313100language19"/>
+    <bf:language rdf:resource="http://bibframe.org/resources/Yjc1417101980/8313100language20"/>
+    <bf:subject rdf:resource="http://bibframe.org/resources/Yjc1417101980/8313100person21"/>
+    <bf:subject rdf:resource="http://bibframe.org/resources/Yjc1417101980/8313100topic22"/>
+    <bf:subject rdf:resource="http://bibframe.org/resources/Yjc1417101980/8313100topic23"/>
+    <bf:subject rdf:resource="http://bibframe.org/resources/Yjc1417101980/8313100organization24"/>
+    <bf:subject rdf:resource="http://bibframe.org/resources/Yjc1417101980/8313100topic25"/>
+    <bf:subject rdf:resource="http://bibframe.org/resources/Yjc1417101980/8313100topic26"/>
+    <bf:subject rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/s-bl"/>
+    <bf:classification rdf:resource="http://bibframe.org/resources/Yjc1417101980/8313100classification28"/>
+    <bf:partOf rdf:resource="http://bibframe.org/resources/Yjc1417101980/8313100work29"/>
+    <bf:series rdf:resource="http://bibframe.org/resources/Yjc1417101980/8313100work30"/>
+    <bf:derivedFrom rdf:resource="http://bibframe.org/resources/Yjc1417101980/8313100.marcxml.xml"/>
+    <bf:authorizedAccessPoint xml:lang="x-bf-hash">coelhoguilhermewatzlmárciasimõesleticiamoraisfredericomeirelescildo1948haddadamircaséregina1954matizarfirmdomingocomfredericomoraisporworkmovingimage</bf:authorizedAccessPoint>
+  </bf:Work>
+  <bf:Work xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/Yjc1417101980/8313100work29">
+    <bf:title>Domingo no MAM.</bf:title>
+    <bf:authorizedAccessPoint>Domingo no MAM.</bf:authorizedAccessPoint>
+  </bf:Work>
+  <bf:Work xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/Yjc1417101980/8313100work30">
+    <bf:title>Retratos contemporâneos da arte</bf:title>
+    <bf:authorizedAccessPoint>Retratos contemporâneos da arte</bf:authorizedAccessPoint>
+  </bf:Work>
+  <bf:Instance xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/Yjc1417101980/8313100instance34">
+    <rdf:type rdf:resource="http://bibframe.org/vocab/Monograph"/>
+    <bf:instanceTitle rdf:resource="http://bibframe.org/resources/Yjc1417101980/8313100title37"/>
+    <bf:title xml:lang="x-bf-sort">domingo com Frederico Morais</bf:title>
+    <bf:titleVariation rdf:resource="http://bibframe.org/resources/Yjc1417101980/8313100title39"/>
+    <bf:publication>
+      <bf:Provider>
+        <bf:providerName>
+          <bf:Organization>
+            <bf:label>Matizar</bf:label>
+          </bf:Organization>
+        </bf:providerName>
+        <bf:providerPlace>
+          <bf:Place>
+            <bf:label>Brazil </bf:label>
+          </bf:Place>
+        </bf:providerPlace>
+        <bf:providerDate>2011</bf:providerDate>
+      </bf:Provider>
+    </bf:publication>
+    <bf:distribution>
+      <bf:Provider>
+        <bf:providerName>
+          <bf:Organization>
+            <bf:label>Bretz Filmes</bf:label>
+          </bf:Organization>
+        </bf:providerName>
+        <bf:providerPlace>
+          <bf:Place>
+            <bf:label>Rio de Janeiro </bf:label>
+          </bf:Place>
+        </bf:providerPlace>
+        <bf:providerDate>2011</bf:providerDate>
+      </bf:Provider>
+    </bf:distribution>
+    <bf:soundContent>Sound on medium</bf:soundContent>
+    <bf:soundContent>Videodisc</bf:soundContent>
+    <bf:modeOfIssuance>single unit</bf:modeOfIssuance>
+    <bf:extent>1 videodisc (60 min.) :</bf:extent>
+    <bf:dimensions>4 3/4 in.</bf:dimensions>
+    <bf:illustrationNote>sound, color with black and white sequences ;</bf:illustrationNote>
+    <bf:titleStatement>Um domingo com Frederico Morais</bf:titleStatement>
+    <bf:responsibilityStatement>Matizar e Retratos contemporâneos da arte apresentam ; direção, Guilherme Coelho ; roteiro, Marcia Watzl, Leticia Simões, Guilherme Coelho ; produção, Mariana Ferraz, Nathaniel Leclery, Alessandra Perret.</bf:responsibilityStatement>
+    <bf:providerStatement>Brazil : Matizar, 2011.</bf:providerStatement>
+    <bf:providerStatement>Rio de Janeiro : Bretz Filmes, 2011.</bf:providerStatement>
+    <bf:languageNote>In Portuguese with optional English, French, or Spanish subtitles.</bf:languageNote>
+    <bf:performerNote>Featuring: Frederico Morais, Cildo Meireles, Amir Haddad, Regina Casé.</bf:performerNote>
+    <bf:creditsNote>Credits: Director, Guilherme Coelho ; writers, Marcia Watzl, Leticia Simões, Guilherme Coelho ; producers, Mariana Ferraz, Nathaniel Leclery, Alessandra Perret ; photography, Alberto Bellezia ; soundtrack, Ricardo Medeiros, Cristina Braga ; editor, Marcia Watzl.</bf:creditsNote>
+    <bf:note>Latin American and Iberian videos in Princeton University Library</bf:note>
+    <bf:note>DVD; all regions; 5.1 or 2.0 sound.</bf:note>
+    <bf:note>Extras: Um domingo no MAM (2011 ; 20 min.); A crítica como criação: Frederico Morais, Fernando Cocchiarale, José Carlos Avellar; Arte e política: Carlos Vergara; Arte e espaço público: Marcos Chaves.</bf:note>
+    <bf:note>"An intimate encounter with Frederico Morais, art critic and creator of the Domingos da Criação, a series of events that shook up Rio de Janeiro's Museum of Modern Art between January and July 1971. With interviews with such artists as Cildo Meireles, Amir Haddad and Regina Casé, the documentary recounts Frederico's trajectory from his arrival in Rio in 1965 to his fundamental role in organizing the Sundays of Creation, while shedding light on his views on the relation between artists and critics"--IMDb.</bf:note>
+    <bf:systemNumber rdf:resource="http://www.worldcat.org/oclc/882107559"/>
+    <bf:systemNumber rdf:resource="http://www.worldcat.org/oclc/882107559"/>
+    <bf:ean>
+      <bf:Identifier>
+        <bf:identifierScheme>ean</bf:identifierScheme>
+        <bf:identifierValue>7890552106922</bf:identifierValue>
+      </bf:Identifier>
+    </bf:ean>
+    <bf:videorecordingNumber>
+      <bf:Identifier>
+        <bf:identifierScheme>videorecordingNumber</bf:identifierScheme>
+        <bf:identifierValue>BF011</bf:identifierValue>
+        <bf:identifierAssigner>Bretz Filmes</bf:identifierAssigner>
+      </bf:Identifier>
+    </bf:videorecordingNumber>
+    <bf:mediaCategory rdf:resource="http://id.loc.gov/vocabulary/mediaTypes/v"/>
+    <bf:carrierCategory rdf:resource="http://id.loc.gov/vocabulary/carriers/vd"/>
+    <bf:derivedFrom rdf:resource="http://bibframe.org/resources/Yjc1417101980/8313100.marcxml.xml"/>
+    <bf:instanceOf rdf:resource="http://bibframe.org/resources/Yjc1417101980/8313100"/>
+  </bf:Instance>
+  <bf:Annotation xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/Yjc1417101980/8313100annotation33">
+    <bf:derivedFrom rdf:resource="http://bibframe.org/resources/Yjc1417101980/8313100.marcxml.xml"/>
+    <bf:descriptionSource rdf:resource="http://id.loc.gov/vocabulary/organizations/tkn"/>
+    <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/njp"/>
+    <bf:descriptionConventions rdf:resource="http://id.loc.gov/vocabulary/descriptionConventions/rda"/>
+    <bf:descriptionLanguage rdf:resource="http://id.loc.gov/vocabulary/languages/eng"/>
+    <bf:descriptionConventions rdf:resource="http://id.loc.gov/vocabulary/descriptionConventions/isbd"/>
+    <bf:generationProcess>DLC transform-tool:2014-11-21-T17:14:00</bf:generationProcess>
+    <bf:changeDate>2014-07-11T16:41</bf:changeDate>
+    <bf:annotates rdf:resource="http://bibframe.org/resources/Yjc1417101980/8313100"/>
+  </bf:Annotation>
+  <bf:Annotation xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/Yjc1417101980/8064071annotation7">
+    <bf:derivedFrom rdf:resource="http://bibframe.org/resources/Yjc1417101980/8064071.marcxml.xml"/>
+    <bf:descriptionConventions rdf:resource="http://id.loc.gov/vocabulary/descriptionConventions/nonisbd"/>
+    <bf:generationProcess>DLC transform-tool:2014-11-21-T17:14:00</bf:generationProcess>
+    <bf:changeDate>2014-07-11T16:39</bf:changeDate>
+    <bf:annotates rdf:resource="http://bibframe.org/resources/Yjc1417101980/8064071"/>
+  </bf:Annotation>
+  <bf:Title xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/Yjc1417101980/8313100title5">
+    <bf:titleValue>Um domingo com Frederico Morais</bf:titleValue>
+  </bf:Title>
+  <bf:Person xmlns:bf="http://bibframe.org/vocab/" rdf:about="http://bibframe.org/resources/Yjc1417101980/8313100person7">
+    <bf:label xmlns:relators="http://id.loc.gov/vocabulary/relators/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">Coelho, Guilherme</bf:label>
+    <bf:authorizedAccessPoint xmlns:relators="http://id.loc.gov/vocabulary/relators/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">Coelho, Guilherme</bf:authorizedAccessPoint>
+    <bf:hasAuthority rdf:resource="http://id.loc.gov/authorities/names/no2005076441"/>
+  </bf:Person>
+  <bf:Person xmlns:bf="http://bibframe.org/vocab/" rdf:about="http://bibframe.org/resources/Yjc1417101980/8313100person8">
+    <bf:label xmlns:relators="http://id.loc.gov/vocabulary/relators/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">Coelho, Guilherme</bf:label>
+    <bf:authorizedAccessPoint xmlns:relators="http://id.loc.gov/vocabulary/relators/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">Coelho, Guilherme</bf:authorizedAccessPoint>
+    <bf:hasAuthority rdf:resource="http://id.loc.gov/authorities/names/no2005076441"/>
+  </bf:Person>
+  <bf:Person xmlns:bf="http://bibframe.org/vocab/" rdf:about="http://bibframe.org/resources/Yjc1417101980/8313100person9">
+    <bf:label xmlns:relators="http://id.loc.gov/vocabulary/relators/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">Watzl, Márcia</bf:label>
+    <bf:authorizedAccessPoint xmlns:relators="http://id.loc.gov/vocabulary/relators/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">Watzl, Márcia</bf:authorizedAccessPoint>
+    <bf:hasAuthority rdf:resource="http://id.loc.gov/authorities/names/no2013109889"/>
+  </bf:Person>
+  <bf:Person xmlns:bf="http://bibframe.org/vocab/" rdf:about="http://bibframe.org/resources/Yjc1417101980/8313100person10">
+    <bf:label xmlns:relators="http://id.loc.gov/vocabulary/relators/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">Watzl, Márcia</bf:label>
+    <bf:authorizedAccessPoint xmlns:relators="http://id.loc.gov/vocabulary/relators/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">Watzl, Márcia</bf:authorizedAccessPoint>
+    <bf:hasAuthority rdf:resource="http://id.loc.gov/authorities/names/no2013109889"/>
+  </bf:Person>
+  <bf:Person xmlns:bf="http://bibframe.org/vocab/" rdf:about="http://bibframe.org/resources/Yjc1417101980/8313100person11">
+    <bf:label xmlns:relators="http://id.loc.gov/vocabulary/relators/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">Simões, Leticia</bf:label>
+    <bf:authorizedAccessPoint xmlns:relators="http://id.loc.gov/vocabulary/relators/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">Simões, Leticia</bf:authorizedAccessPoint>
+    <bf:hasAuthority rdf:resource="http://id.loc.gov/authorities/names/no2014095666"/>
+  </bf:Person>
+  <bf:Person xmlns:bf="http://bibframe.org/vocab/" rdf:about="http://bibframe.org/resources/Yjc1417101980/8313100person12">
+    <bf:label xmlns:relators="http://id.loc.gov/vocabulary/relators/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">Morais, Frederico</bf:label>
+    <bf:authorizedAccessPoint xmlns:relators="http://id.loc.gov/vocabulary/relators/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">Morais, Frederico</bf:authorizedAccessPoint>
+    <bf:hasAuthority rdf:resource="http://id.loc.gov/authorities/names/n81010462"/>
+  </bf:Person>
+  <bf:Person xmlns:bf="http://bibframe.org/vocab/" rdf:about="http://bibframe.org/resources/Yjc1417101980/8313100person13">
+    <bf:label xmlns:relators="http://id.loc.gov/vocabulary/relators/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">Meireles, Cildo, 1948-</bf:label>
+    <bf:authorizedAccessPoint xmlns:relators="http://id.loc.gov/vocabulary/relators/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">Meireles, Cildo, 1948-</bf:authorizedAccessPoint>
+    <bf:hasAuthority rdf:resource="http://id.loc.gov/authorities/names/n82121063"/>
+  </bf:Person>
+  <bf:Person xmlns:bf="http://bibframe.org/vocab/" rdf:about="http://bibframe.org/resources/Yjc1417101980/8313100person14">
+    <bf:label xmlns:relators="http://id.loc.gov/vocabulary/relators/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">Haddad, Amir</bf:label>
+    <bf:authorizedAccessPoint xmlns:relators="http://id.loc.gov/vocabulary/relators/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">Haddad, Amir</bf:authorizedAccessPoint>
+    <bf:hasAuthority rdf:resource="http://id.loc.gov/authorities/names/n84011023"/>
+  </bf:Person>
+  <bf:Person xmlns:bf="http://bibframe.org/vocab/" rdf:about="http://bibframe.org/resources/Yjc1417101980/8313100person15">
+    <bf:label xmlns:relators="http://id.loc.gov/vocabulary/relators/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">Casé, Regina, 1954-</bf:label>
+    <bf:authorizedAccessPoint xmlns:relators="http://id.loc.gov/vocabulary/relators/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">Casé, Regina, 1954-</bf:authorizedAccessPoint>
+    <bf:hasAuthority rdf:resource="http://id.loc.gov/authorities/names/no2003121654"/>
+  </bf:Person>
+  <bf:Organization xmlns:bf="http://bibframe.org/vocab/" rdf:about="http://bibframe.org/resources/Yjc1417101980/8313100organization16">
+    <bf:label xmlns:relators="http://id.loc.gov/vocabulary/relators/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">Matizar (Firm)</bf:label>
+    <bf:authorizedAccessPoint xmlns:relators="http://id.loc.gov/vocabulary/relators/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">Matizar (Firm)</bf:authorizedAccessPoint>
+    <bf:hasAuthority rdf:resource="http://id.loc.gov/authorities/names/no2011142631"/>
+  </bf:Organization>
+  <bf:Language xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/Yjc1417101980/8313100language18">
+    <bf:resourcePart>subtitles or captions</bf:resourcePart>
+    <bf:languageOfPartUri rdf:resource="http://id.loc.gov/vocabulary/languages/eng"/>
+  </bf:Language>
+  <bf:Language xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/Yjc1417101980/8313100language19">
+    <bf:resourcePart>subtitles or captions</bf:resourcePart>
+    <bf:languageOfPartUri rdf:resource="http://id.loc.gov/vocabulary/languages/fre"/>
+  </bf:Language>
+  <bf:Language xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/Yjc1417101980/8313100language20">
+    <bf:resourcePart>subtitles or captions</bf:resourcePart>
+    <bf:languageOfPartUri rdf:resource="http://id.loc.gov/vocabulary/languages/spa"/>
+  </bf:Language>
+  <bf:Person xmlns:bf="http://bibframe.org/vocab/" rdf:about="http://bibframe.org/resources/Yjc1417101980/8313100person21">
+    <bf:authorizedAccessPoint xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/">Morais, Frederico.</bf:authorizedAccessPoint>
+    <bf:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/">Morais, Frederico.</bf:label>
+    <bf:hasAuthority rdf:resource="http://id.loc.gov/authorities/names/n81010462"/>
+  </bf:Person>
+  <bf:Topic xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/Yjc1417101980/8313100topic22">
+    <bf:authorizedAccessPoint>Art museums--Brazil--Rio de Janeiro</bf:authorizedAccessPoint>
+    <bf:label>Art museums--Brazil--Rio de Janeiro</bf:label>
+    <bf:hasAuthority>
+      <madsrdf:Authority>
+        <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+        <madsrdf:authoritativeLabel>Art museums--Brazil--Rio de Janeiro</madsrdf:authoritativeLabel>
+        <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/authorities/subjects"/>
+      </madsrdf:Authority>
+    </bf:hasAuthority>
+  </bf:Topic>
+  <bf:Topic xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/Yjc1417101980/8313100topic23">
+    <bf:authorizedAccessPoint>Art criticism--Brazil--Rio de Janeiro</bf:authorizedAccessPoint>
+    <bf:label>Art criticism--Brazil--Rio de Janeiro</bf:label>
+    <bf:hasAuthority>
+      <madsrdf:Authority>
+        <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+        <madsrdf:authoritativeLabel>Art criticism--Brazil--Rio de Janeiro</madsrdf:authoritativeLabel>
+        <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/authorities/subjects"/>
+      </madsrdf:Authority>
+    </bf:hasAuthority>
+  </bf:Topic>
+  <bf:Organization xmlns:bf="http://bibframe.org/vocab/" rdf:about="http://bibframe.org/resources/Yjc1417101980/8313100organization24">
+    <bf:authorizedAccessPoint xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/">Museu de Arte Moderna do Rio de Janeiro.</bf:authorizedAccessPoint>
+    <bf:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/">Museu de Arte Moderna do Rio de Janeiro.</bf:label>
+    <bf:hasAuthority rdf:resource="http://id.loc.gov/authorities/names/n83174401"/>
+  </bf:Organization>
+  <bf:Topic xmlns:bf="http://bibframe.org/vocab/" rdf:about="http://bibframe.org/resources/Yjc1417101980/8313100topic25">
+    <bf:authorizedAccessPoint xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/">Art, Brazilian--20th century</bf:authorizedAccessPoint>
+    <bf:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/">Art, Brazilian--20th century</bf:label>
+    <bf:hasAuthority rdf:resource="http://id.loc.gov/authorities/subjects/sh2001006351"/>
+  </bf:Topic>
+  <bf:Topic xmlns:bf="http://bibframe.org/vocab/" rdf:about="http://bibframe.org/resources/Yjc1417101980/8313100topic26">
+    <bf:authorizedAccessPoint xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/">Documentary films</bf:authorizedAccessPoint>
+    <bf:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/">Documentary films</bf:label>
+    <bf:hasAuthority rdf:resource="http://id.loc.gov/authorities/subjects/sh85088115"/>
+  </bf:Topic>
+  <bf:Classification xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/Yjc1417101980/8313100classification28">
+    <bf:classificationNumber>N6655</bf:classificationNumber>
+    <bf:classificationScheme/>
+  </bf:Classification>
+  <bf:Title xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/Yjc1417101980/8313100title37">
+    <bf:titleValue>Um domingo com Frederico Morais</bf:titleValue>
+  </bf:Title>
+  <bf:Title xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/Yjc1417101980/8313100title39">
+    <bf:titleType>Title from English subtitles:</bf:titleType>
+    <bf:titleValue>Sunday with Frederico Morais</bf:titleValue>
+  </bf:Title>
+</rdf:RDF>

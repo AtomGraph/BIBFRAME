@@ -1,0 +1,174 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <bf:Work xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/lXv1417101860/7979037">
+    <bf:authorizedAccessPoint/>
+    <bf:derivedFrom rdf:resource="http://bibframe.org/resources/lXv1417101860/7979037.marcxml.xml"/>
+    <bf:authorizedAccessPoint xml:lang="x-bf-hash">work</bf:authorizedAccessPoint>
+  </bf:Work>
+  <bf:Work xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/lXv1417101860/8049321">
+    <rdf:type rdf:resource="http://bibframe.org/vocab/Text"/>
+    <bf:authorizedAccessPoint>Wang, Gai, active 1677-1705. Jie zi yuan hua zhuan :wu juan 芥子園畫傳 五卷</bf:authorizedAccessPoint>
+    <bf:workTitle rdf:resource="http://bibframe.org/resources/lXv1417101860/8049321title5"/>
+    <bf:creator rdf:resource="http://bibframe.org/resources/lXv1417101860/8049321person6"/>
+    <bf:contributor rdf:resource="http://bibframe.org/resources/lXv1417101860/8049321person7"/>
+    <bf:language rdf:resource="http://id.loc.gov/vocabulary/languages/chi"/>
+    <bf:subject rdf:resource="http://bibframe.org/resources/lXv1417101860/8049321topic9"/>
+    <bf:subject rdf:resource="http://bibframe.org/resources/lXv1417101860/8049321topic10"/>
+    <bf:subject rdf:resource="http://bibframe.org/resources/lXv1417101860/8049321topic11"/>
+    <bf:subject rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/a-cc"/>
+    <bf:classificationLcc rdf:resource="http://id.loc.gov/authorities/classification/JF1001"/>
+    <bf:hasPart rdf:resource="http://bibframe.org/resources/lXv1417101860/8049321work14"/>
+    <bf:hasPart rdf:resource="http://bibframe.org/resources/lXv1417101860/8049321work15"/>
+    <bf:hasPart rdf:resource="http://bibframe.org/resources/lXv1417101860/8049321work16"/>
+    <bf:hasPart rdf:resource="http://bibframe.org/resources/lXv1417101860/8049321work17"/>
+    <bf:hasPart rdf:resource="http://bibframe.org/resources/lXv1417101860/8049321work18"/>
+    <bf:contentsNote>880-05 1. Qing zai tang hua xue qian shuo -- 2. Shu pu -- 3. Shan shi pu -- 4. Ren wu wu yu pu -- 5. Mo fang zhu jia hua pu.</bf:contentsNote>
+    <bf:note xml:lang="zh">書名及著者據封面. 王槩, 字安節. 書名及著者據封面. 王槩, 字安節.</bf:note>
+    <bf:note xml:lang="zh">封面題: "李笠翁先生論定 繡水王安節摹古 芥子園畫傳 本衙藏板", "畫傳二集蘭竹梅菊譜已出 三集翎毛草蟲花卉譜已出". 封面題: "李笠翁先生論定 繡水王安節摹古 芥子園畫傳 本衙藏板", "畫傳二集蘭竹梅菊譜已出 三集翎毛草蟲花卉譜已出".</bf:note>
+    <bf:note xml:lang="zh">康熙十八年(1679)笠翁李漁《序》. 康熙十八年(1679)笠翁李漁《序》.</bf:note>
+    <bf:note xml:lang="zh">框22.5 x 14.7公分, 9行20字, 白口, 四周單邊, 單黑魚尾, 版心上鐫"芥子園画傳", 中鐫卷次. 框22.5 x 14.7公分, 9行20字, 白口, 四周單邊, 單黑魚尾, 版心上鐫"芥子園画傳", 中鐫卷次.</bf:note>
+    <bf:derivedFrom rdf:resource="http://bibframe.org/resources/lXv1417101860/8049321.marcxml.xml"/>
+    <bf:authorizedAccessPoint xml:lang="x-bf-hash">liyu16111680wanggaiactive16771705jieziyuanhuazhuanwujuanchiworktext</bf:authorizedAccessPoint>
+  </bf:Work>
+  <bf:Work xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/lXv1417101860/8049321work14">
+    <bf:note>1.</bf:note>
+    <bf:title>Qing zai tang hua xue qian shuo --</bf:title>
+    <bf:title xml:lang="chi">青在堂畫學淺說 --</bf:title>
+  </bf:Work>
+  <bf:Work xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/lXv1417101860/8049321work15">
+    <bf:note>2.</bf:note>
+    <bf:title>Shu pu --</bf:title>
+    <bf:title xml:lang="chi">樹譜 --</bf:title>
+  </bf:Work>
+  <bf:Work xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/lXv1417101860/8049321work16">
+    <bf:note>3.</bf:note>
+    <bf:title>Shan shi pu --</bf:title>
+    <bf:title xml:lang="chi">山石譜 --</bf:title>
+  </bf:Work>
+  <bf:Work xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/lXv1417101860/8049321work17">
+    <bf:note>4.</bf:note>
+    <bf:title>Ren wu wu yu pu --</bf:title>
+    <bf:title xml:lang="chi">人物屋宇譜 --</bf:title>
+  </bf:Work>
+  <bf:Work xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/lXv1417101860/8049321work18">
+    <bf:note>5.</bf:note>
+    <bf:title>Mo fang zhu jia hua pu.</bf:title>
+    <bf:title xml:lang="chi">摹仿諸家畫譜.</bf:title>
+  </bf:Work>
+  <bf:Instance xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/lXv1417101860/8049321instance27">
+    <rdf:type rdf:resource="http://bibframe.org/vocab/Monograph"/>
+    <bf:instanceTitle rdf:resource="http://bibframe.org/resources/lXv1417101860/8049321title30"/>
+    <bf:responsibilityStatement xml:lang="zh">王安節摹古.</bf:responsibilityStatement>
+    <bf:publication>
+      <bf:Provider>
+        <bf:providerName>
+          <bf:Organization>
+            <bf:label>s.n</bf:label>
+            <bf:label xml:lang="zh">s.n.</bf:label>
+          </bf:Organization>
+        </bf:providerName>
+        <bf:providerPlace>
+          <bf:Place>
+            <bf:label>China </bf:label>
+            <bf:label xml:lang="zh">China :</bf:label>
+          </bf:Place>
+        </bf:providerPlace>
+        <bf:providerDate>Qing Kangxi, between 1679 and 1722]</bf:providerDate>
+        <bf:providerDate xml:lang="zh">清康熙, between 1679 and 1722</bf:providerDate>
+      </bf:Provider>
+    </bf:publication>
+    <bf:edition xml:lang="zh">[彩色套印本].</bf:edition>
+    <bf:modeOfIssuance>single unit</bf:modeOfIssuance>
+    <bf:extent>5 v. :</bf:extent>
+    <bf:dimensions>29 cm.</bf:dimensions>
+    <bf:illustrationNote>ill. ;</bf:illustrationNote>
+    <bf:titleStatement>Jie zi yuan hua zhuan : wu juan</bf:titleStatement>
+    <bf:responsibilityStatement>Wang Anjie mo gu.</bf:responsibilityStatement>
+    <bf:edition>Cai se tao yin ben.</bf:edition>
+    <bf:providerStatement>China : s.n., Qing Kangxi, between 1679 and 1722</bf:providerStatement>
+    <bf:immediateAcquisition>Purchase; 1958.</bf:immediateAcquisition>
+    <bf:note>On double leaves, East Asian binding.</bf:note>
+    <bf:note>In case.</bf:note>
+    <bf:systemNumber rdf:resource="http://www.worldcat.org/oclc/31983844"/>
+    <bf:systemNumber rdf:resource="http://www.worldcat.org/oclc/31983844"/>
+    <bf:note xml:lang="zh">書名及著者據封面. 王槩, 字安節. 書名及著者據封面. 王槩, 字安節.</bf:note>
+    <bf:note xml:lang="zh">封面題: "李笠翁先生論定 繡水王安節摹古 芥子園畫傳 本衙藏板", "畫傳二集蘭竹梅菊譜已出 三集翎毛草蟲花卉譜已出". 封面題: "李笠翁先生論定 繡水王安節摹古 芥子園畫傳 本衙藏板", "畫傳二集蘭竹梅菊譜已出 三集翎毛草蟲花卉譜已出".</bf:note>
+    <bf:note xml:lang="zh">康熙十八年(1679)笠翁李漁《序》. 康熙十八年(1679)笠翁李漁《序》.</bf:note>
+    <bf:note xml:lang="zh">框22.5 x 14.7公分, 9行20字, 白口, 四周單邊, 單黑魚尾, 版心上鐫"芥子園画傳", 中鐫卷次. 框22.5 x 14.7公分, 9行20字, 白口, 四周單邊, 單黑魚尾, 版心上鐫"芥子園画傳", 中鐫卷次.</bf:note>
+    <bf:derivedFrom rdf:resource="http://bibframe.org/resources/lXv1417101860/8049321.marcxml.xml"/>
+    <bf:instanceOf rdf:resource="http://bibframe.org/resources/lXv1417101860/8049321"/>
+  </bf:Instance>
+  <bf:Annotation xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/lXv1417101860/8049321annotation26">
+    <bf:derivedFrom rdf:resource="http://bibframe.org/resources/lXv1417101860/8049321.marcxml.xml"/>
+    <bf:descriptionSource rdf:resource="http://id.loc.gov/vocabulary/organizations/zca"/>
+    <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/oclcq"/>
+    <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/zcu"/>
+    <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/oclcg"/>
+    <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/oclca"/>
+    <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/oclcq"/>
+    <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/oclco"/>
+    <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/oclca"/>
+    <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/oclcq"/>
+    <bf:descriptionLanguage rdf:resource="http://id.loc.gov/vocabulary/languages/eng"/>
+    <bf:descriptionConventions rdf:resource="http://id.loc.gov/vocabulary/descriptionConventions/aacr2"/>
+    <bf:generationProcess>DLC transform-tool:2014-11-21-T17:14:00</bf:generationProcess>
+    <bf:changeDate>2014-04-01T09:40</bf:changeDate>
+    <bf:annotates rdf:resource="http://bibframe.org/resources/lXv1417101860/8049321"/>
+  </bf:Annotation>
+  <bf:Annotation xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/lXv1417101860/7979037annotation7">
+    <bf:derivedFrom rdf:resource="http://bibframe.org/resources/lXv1417101860/7979037.marcxml.xml"/>
+    <bf:descriptionConventions rdf:resource="http://id.loc.gov/vocabulary/descriptionConventions/nonisbd"/>
+    <bf:generationProcess>DLC transform-tool:2014-11-21-T17:14:00</bf:generationProcess>
+    <bf:changeDate>2014-04-01T11:51</bf:changeDate>
+    <bf:annotates rdf:resource="http://bibframe.org/resources/lXv1417101860/7979037"/>
+  </bf:Annotation>
+  <bf:HeldItem xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/lXv1417101860/8049321helditem53">
+    <bf:label>JF1001 .M86</bf:label>
+    <bf:shelfMarkLcc>JF1001 .M86</bf:shelfMarkLcc>
+    <bf:holdingFor rdf:resource="http://bibframe.org/resources/lXv1417101860/8049321instance27"/>
+  </bf:HeldItem>
+  <bf:Title xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/lXv1417101860/8049321title5">
+    <bf:titleValue>Jie zi yuan hua zhuan :</bf:titleValue>
+    <bf:subtitle>wu juan </bf:subtitle>
+    <bf:titleValue xml:lang="zh">芥子園畫傳 五卷</bf:titleValue>
+  </bf:Title>
+  <bf:Person xmlns:bf="http://bibframe.org/vocab/" rdf:about="http://bibframe.org/resources/lXv1417101860/8049321person6">
+    <bf:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/">Wang, Gai, active 1677-1705.</bf:label>
+    <bf:authorizedAccessPoint xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/">Wang, Gai, active 1677-1705.</bf:authorizedAccessPoint>
+    <bf:authorizedAccessPoint xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" xml:lang="zh">王槩, active 1677-1705.</bf:authorizedAccessPoint>
+    <bf:hasAuthority rdf:resource="http://id.loc.gov/authorities/names/n81015507"/>
+  </bf:Person>
+  <bf:Person xmlns:bf="http://bibframe.org/vocab/" rdf:about="http://bibframe.org/resources/lXv1417101860/8049321person7">
+    <bf:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/">Li, Yu, 1611-1680?</bf:label>
+    <bf:authorizedAccessPoint xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/">Li, Yu, 1611-1680?</bf:authorizedAccessPoint>
+    <bf:authorizedAccessPoint xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" xml:lang="zh">李漁, 1611-1680?</bf:authorizedAccessPoint>
+    <bf:hasAuthority rdf:resource="http://id.loc.gov/authorities/names/n81014376"/>
+  </bf:Person>
+  <bf:Topic xmlns:bf="http://bibframe.org/vocab/" rdf:about="http://bibframe.org/resources/lXv1417101860/8049321topic9">
+    <bf:authorizedAccessPoint xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/">Painting, Chinese--Technique</bf:authorizedAccessPoint>
+    <bf:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/">Painting, Chinese--Technique</bf:label>
+    <bf:hasAuthority rdf:resource="http://id.loc.gov/authorities/subjects/sh2008108805"/>
+  </bf:Topic>
+  <bf:Topic xmlns:bf="http://bibframe.org/vocab/" rdf:about="http://bibframe.org/resources/lXv1417101860/8049321topic10">
+    <bf:authorizedAccessPoint xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/">Painting--Technique</bf:authorizedAccessPoint>
+    <bf:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/">Painting--Technique</bf:label>
+    <bf:hasAuthority rdf:resource="http://id.loc.gov/authorities/subjects/sh85096675"/>
+  </bf:Topic>
+  <bf:Topic xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/lXv1417101860/8049321topic11">
+    <bf:authorizedAccessPoint>Zi bu--Yi shu lei--Hua pu</bf:authorizedAccessPoint>
+    <bf:label>Zi bu--Yi shu lei--Hua pu</bf:label>
+    <bf:hasAuthority>
+      <madsrdf:Authority>
+        <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+        <madsrdf:authoritativeLabel>Zi bu--Yi shu lei--Hua pu</madsrdf:authoritativeLabel>
+        <madsrdf:isMemberOfMADSScheme rdf:resource="http://example.org"/>
+      </madsrdf:Authority>
+    </bf:hasAuthority>
+    <bf:authoritySource>sk</bf:authoritySource>
+    <bf:authorizedAccessPoint xml:lang="zh">子部 藝術類 畫譜. sk</bf:authorizedAccessPoint>
+  </bf:Topic>
+  <bf:Title xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/lXv1417101860/8049321title30">
+    <bf:titleValue>Jie zi yuan hua zhuan :</bf:titleValue>
+    <bf:subtitle>wu juan </bf:subtitle>
+    <bf:titleValue xml:lang="zh">芥子園畫傳 五卷</bf:titleValue>
+  </bf:Title>
+</rdf:RDF>

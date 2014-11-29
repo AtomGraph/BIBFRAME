@@ -1,0 +1,126 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <bf:Work xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/mFM1417101706/7400696">
+    <rdf:type rdf:resource="http://bibframe.org/vocab/Text"/>
+    <bf:authorizedAccessPoint>ILO International Centre for Advanced Technical and Vocational Training (Turin, Italy) Facilitador de la reforma previsional :guías prácticas</bf:authorizedAccessPoint>
+    <bf:workTitle rdf:resource="http://bibframe.org/resources/mFM1417101706/7400696title5"/>
+    <relators:aut rdf:resource="http://bibframe.org/resources/mFM1417101706/7400696organization6"/>
+    <relators:isb rdf:resource="http://bibframe.org/resources/mFM1417101706/7400696organization7"/>
+    <relators:isb rdf:resource="http://bibframe.org/resources/mFM1417101706/7400696organization8"/>
+    <bf:language rdf:resource="http://id.loc.gov/vocabulary/languages/spa"/>
+    <bf:subject rdf:resource="http://bibframe.org/resources/mFM1417101706/7400696topic10"/>
+    <bf:subject rdf:resource="http://bibframe.org/resources/mFM1417101706/7400696topic11"/>
+    <bf:subject rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/s-cl"/>
+    <bf:classificationLcc rdf:resource="http://id.loc.gov/authorities/classification/KHF2000"/>
+    <bf:derivedFrom rdf:resource="http://bibframe.org/resources/mFM1417101706/7400696.marcxml.xml"/>
+    <bf:authorizedAccessPoint xml:lang="x-bf-hash">ilointernationalcentreforadvancedtechnicalandvocationaltrainingturinitalyinternationallabourorganisationoficinasubregionalparaelconosurdeaméricalatinafacilitadordelareformaprevisionalguíasprácticasspaworktext</bf:authorizedAccessPoint>
+  </bf:Work>
+  <bf:Instance xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/mFM1417101706/7400696instance17">
+    <bf:isbn10 rdf:resource="http://isbn.example.org/9290494654"/>
+    <bf:isbn13 rdf:resource="http://isbn.example.org/9789290494652"/>
+    <rdf:type rdf:resource="http://bibframe.org/vocab/Monograph"/>
+    <bf:instanceTitle rdf:resource="http://bibframe.org/resources/mFM1417101706/7400696title22"/>
+    <bf:publication>
+      <bf:Provider>
+        <bf:providerName>
+          <bf:Organization>
+            <bf:label>Centro Internacional de Formación de la OIT </bf:label>
+          </bf:Organization>
+        </bf:providerName>
+        <bf:providerPlace>
+          <bf:Place>
+            <bf:label>Turín, Italia </bf:label>
+          </bf:Place>
+        </bf:providerPlace>
+        <bf:providerDate>2008</bf:providerDate>
+      </bf:Provider>
+    </bf:publication>
+    <bf:publication>
+      <bf:Provider>
+        <bf:providerName>
+          <bf:Organization>
+            <bf:label>Oficina Subregional de la OIT para el Cono Sur de América Latina</bf:label>
+          </bf:Organization>
+        </bf:providerName>
+        <bf:providerPlace>
+          <bf:Place>
+            <bf:label>Santiago de Chile </bf:label>
+          </bf:Place>
+        </bf:providerPlace>
+        <bf:providerDate>2008</bf:providerDate>
+      </bf:Provider>
+    </bf:publication>
+    <bf:modeOfIssuance>single unit</bf:modeOfIssuance>
+    <bf:extent>5 volumes ; 1 CD-ROM (4 3/4 in.)</bf:extent>
+    <bf:dimensions>24 cm, in slipcase 25 cm +</bf:dimensions>
+    <bf:titleStatement>Facilitador de la reforma previsional : guías prácticas.</bf:titleStatement>
+    <bf:edition>Primera edición.</bf:edition>
+    <bf:providerStatement>Turín, Italia : Centro Internacional de Formación de la OIT ; Santiago de Chile : Oficina Subregional de la OIT para el Cono Sur de América Latina, 2008.</bf:providerStatement>
+    <bf:contentsNote>guía 0. ¿De qué tratan las guías? -- guía 1. ¿Qué y cómo analizar la población objetivo y su contexto? -- guía 2. ¿Qué hay que hacer para planear una acción? -- guía 3. ¿Cómo desarrollar una acción? -- guía 4. ¿Cómo evaluar una acción?</bf:contentsNote>
+    <bf:mediaCategory rdf:resource="http://id.loc.gov/vocabulary/mediaTypes/n"/>
+    <bf:mediaCategory rdf:resource="http://id.loc.gov/vocabulary/mediaTypes/c"/>
+    <bf:carrierCategory rdf:resource="http://id.loc.gov/vocabulary/carriers/nc"/>
+    <bf:carrierCategory rdf:resource="http://id.loc.gov/vocabulary/carriers/cd"/>
+    <bf:derivedFrom rdf:resource="http://bibframe.org/resources/mFM1417101706/7400696.marcxml.xml"/>
+    <bf:instanceOf rdf:resource="http://bibframe.org/resources/mFM1417101706/7400696"/>
+  </bf:Instance>
+  <bf:Annotation xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/mFM1417101706/7400696annotation16">
+    <bf:derivedFrom rdf:resource="http://bibframe.org/resources/mFM1417101706/7400696.marcxml.xml"/>
+    <bf:descriptionSource rdf:resource="http://id.loc.gov/vocabulary/organizations/njp"/>
+    <bf:descriptionConventions rdf:resource="http://id.loc.gov/vocabulary/descriptionConventions/rda"/>
+    <bf:descriptionLanguage rdf:resource="http://id.loc.gov/vocabulary/languages/eng"/>
+    <bf:descriptionConventions rdf:resource="http://id.loc.gov/vocabulary/descriptionConventions/isbd"/>
+    <bf:generationProcess>DLC transform-tool:2014-11-21-T17:14:00</bf:generationProcess>
+    <bf:changeDate>2014-08-08T09:35</bf:changeDate>
+    <bf:annotates rdf:resource="http://bibframe.org/resources/mFM1417101706/7400696"/>
+  </bf:Annotation>
+  <bf:HeldItem xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/mFM1417101706/7400696helditem38">
+    <bf:label>KHF2000 .F32 2008</bf:label>
+    <bf:shelfMarkLcc>KHF2000 .F32 2008</bf:shelfMarkLcc>
+    <bf:holdingFor rdf:resource="http://bibframe.org/resources/mFM1417101706/7400696instance17"/>
+  </bf:HeldItem>
+  <bf:Title xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/mFM1417101706/7400696title5">
+    <bf:titleValue>Facilitador de la reforma previsional :</bf:titleValue>
+    <bf:subtitle>guías prácticas.</bf:subtitle>
+  </bf:Title>
+  <bf:Organization xmlns:bf="http://bibframe.org/vocab/" rdf:about="http://bibframe.org/resources/mFM1417101706/7400696organization6">
+    <bf:label xmlns:relators="http://id.loc.gov/vocabulary/relators/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">ILO International Centre for Advanced Technical and Vocational Training (Turin, Italy)</bf:label>
+    <bf:authorizedAccessPoint xmlns:relators="http://id.loc.gov/vocabulary/relators/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">ILO International Centre for Advanced Technical and Vocational Training (Turin, Italy)</bf:authorizedAccessPoint>
+    <bf:hasAuthority rdf:resource="http://id.loc.gov/authorities/names/n92027919"/>
+  </bf:Organization>
+  <bf:Organization xmlns:bf="http://bibframe.org/vocab/" rdf:about="http://bibframe.org/resources/mFM1417101706/7400696organization7">
+    <bf:label xmlns:relators="http://id.loc.gov/vocabulary/relators/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">ILO International Centre for Advanced Technical and Vocational Training (Turin, Italy)</bf:label>
+    <bf:authorizedAccessPoint xmlns:relators="http://id.loc.gov/vocabulary/relators/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">ILO International Centre for Advanced Technical and Vocational Training (Turin, Italy)</bf:authorizedAccessPoint>
+    <bf:hasAuthority rdf:resource="http://id.loc.gov/authorities/names/n92027919"/>
+  </bf:Organization>
+  <bf:Organization xmlns:bf="http://bibframe.org/vocab/" rdf:about="http://bibframe.org/resources/mFM1417101706/7400696organization8">
+    <bf:label xmlns:relators="http://id.loc.gov/vocabulary/relators/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">International Labour Organisation. Oficina Subregional para el Cono Sur de América Latina</bf:label>
+    <bf:authorizedAccessPoint xmlns:relators="http://id.loc.gov/vocabulary/relators/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">International Labour Organisation. Oficina Subregional para el Cono Sur de América Latina</bf:authorizedAccessPoint>
+    <bf:hasAuthority rdf:resource="http://id.loc.gov/authorities/names/no2010069974"/>
+  </bf:Organization>
+  <bf:Topic xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/mFM1417101706/7400696topic10">
+    <bf:authorizedAccessPoint>Old age pensions--Law and legislation--Study and teaching--Chile</bf:authorizedAccessPoint>
+    <bf:label>Old age pensions--Law and legislation--Study and teaching--Chile</bf:label>
+    <bf:hasAuthority>
+      <madsrdf:Authority>
+        <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+        <madsrdf:authoritativeLabel>Old age pensions--Law and legislation--Study and teaching--Chile</madsrdf:authoritativeLabel>
+        <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/authorities/subjects"/>
+      </madsrdf:Authority>
+    </bf:hasAuthority>
+  </bf:Topic>
+  <bf:Topic xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/mFM1417101706/7400696topic11">
+    <bf:authorizedAccessPoint>Social security--Law and legislation--Study and teaching--Chile</bf:authorizedAccessPoint>
+    <bf:label>Social security--Law and legislation--Study and teaching--Chile</bf:label>
+    <bf:hasAuthority>
+      <madsrdf:Authority>
+        <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+        <madsrdf:authoritativeLabel>Social security--Law and legislation--Study and teaching--Chile</madsrdf:authoritativeLabel>
+        <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/authorities/subjects"/>
+      </madsrdf:Authority>
+    </bf:hasAuthority>
+  </bf:Topic>
+  <bf:Title xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/mFM1417101706/7400696title22">
+    <bf:titleValue>Facilitador de la reforma previsional :</bf:titleValue>
+    <bf:subtitle>guías prácticas.</bf:subtitle>
+  </bf:Title>
+</rdf:RDF>

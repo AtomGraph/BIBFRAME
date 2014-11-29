@@ -1,0 +1,196 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <bf:Work xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/QWw1417101824/7817825">
+    <rdf:type rdf:resource="http://bibframe.org/vocab/MovingImage"/>
+    <bf:authorizedAccessPoint>Gutiérrez Aragón, Manuel, 1942- El corazón del bosque</bf:authorizedAccessPoint>
+    <bf:workTitle rdf:resource="http://bibframe.org/resources/QWw1417101824/7817825title5"/>
+    <bf:title xml:lang="x-bf-sort">corazón del bosque</bf:title>
+    <relators:fmd rdf:resource="http://bibframe.org/resources/QWw1417101824/7817825person7"/>
+    <relators:aus rdf:resource="http://bibframe.org/resources/QWw1417101824/7817825person8"/>
+    <relators:aus rdf:resource="http://bibframe.org/resources/QWw1417101824/7817825person9"/>
+    <relators:act rdf:resource="http://bibframe.org/resources/QWw1417101824/7817825person10"/>
+    <relators:act rdf:resource="http://bibframe.org/resources/QWw1417101824/7817825person11"/>
+    <relators:act rdf:resource="http://bibframe.org/resources/QWw1417101824/7817825person12"/>
+    <relators:act rdf:resource="http://bibframe.org/resources/QWw1417101824/7817825person13"/>
+    <relators:prn rdf:resource="http://bibframe.org/resources/QWw1417101824/7817825organization14"/>
+    <relators:fds rdf:resource="http://bibframe.org/resources/QWw1417101824/7817825organization15"/>
+    <bf:intendedAudience rdf:resource="http://bibframe.org/resources/QWw1417101824/7817825intendedaudience16"/>
+    <bf:language rdf:resource="http://id.loc.gov/vocabulary/languages/spa"/>
+    <bf:subject rdf:resource="http://bibframe.org/resources/QWw1417101824/7817825topic18"/>
+    <bf:subject rdf:resource="http://bibframe.org/resources/QWw1417101824/7817825place19"/>
+    <bf:subject rdf:resource="http://bibframe.org/resources/QWw1417101824/7817825topic20"/>
+    <bf:subject rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/e-sp"/>
+    <bf:classification rdf:resource="http://bibframe.org/resources/QWw1417101824/7817825classification22"/>
+    <bf:series rdf:resource="http://bibframe.org/resources/QWw1417101824/7817825work23"/>
+    <bf:derivedFrom rdf:resource="http://bibframe.org/resources/QWw1417101824/7817825.marcxml.xml"/>
+    <bf:authorizedAccessPoint xml:lang="x-bf-hash">gutiérrezaragónmanuel1942meginoluismolinaangelabriskinorman1938polittiluis19331980valverdevíctor1938arándanosacameomediacorazóndelbosquespaworkmovingimage</bf:authorizedAccessPoint>
+  </bf:Work>
+  <bf:Work xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/QWw1417101824/7817825work23">
+    <bf:title>Colección 24X seg</bf:title>
+    <bf:authorizedAccessPoint>Colección 24X seg</bf:authorizedAccessPoint>
+  </bf:Work>
+  <bf:Instance xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/QWw1417101824/7817825instance27">
+    <rdf:type rdf:resource="http://bibframe.org/vocab/Monograph"/>
+    <bf:instanceTitle rdf:resource="http://bibframe.org/resources/QWw1417101824/7817825title30"/>
+    <bf:title xml:lang="x-bf-sort">corazón del bosque</bf:title>
+    <bf:publication>
+      <bf:Provider>
+        <bf:providerName>
+          <bf:Organization>
+            <bf:label>Cameo Media S.L</bf:label>
+          </bf:Organization>
+        </bf:providerName>
+        <bf:providerPlace>
+          <bf:Place>
+            <bf:label>España </bf:label>
+          </bf:Place>
+        </bf:providerPlace>
+        <bf:providerDate>[2009]</bf:providerDate>
+      </bf:Provider>
+    </bf:publication>
+    <bf:publication>
+      <bf:Provider>
+        <bf:providerPlace>
+          <bf:Place>
+            <bf:label>©2009</bf:label>
+          </bf:Place>
+        </bf:providerPlace>
+      </bf:Provider>
+    </bf:publication>
+    <bf:soundContent>Sound on medium</bf:soundContent>
+    <bf:soundContent>Videodisc</bf:soundContent>
+    <bf:modeOfIssuance>single unit</bf:modeOfIssuance>
+    <bf:extent>1 videodisc (approximately 100 min.) :</bf:extent>
+    <bf:dimensions>4 3/4 in.</bf:dimensions>
+    <bf:illustrationNote>sound, color ;</bf:illustrationNote>
+    <bf:titleStatement>El corazón del bosque</bf:titleStatement>
+    <bf:responsibilityStatement>una película de Arándano, S.A. ; producida por Luis Megino ; guión, Manuel Gutiérrez Aragón y Luis Megino ; dirección, Manuel Gutiérrez Aragón.</bf:responsibilityStatement>
+    <bf:providerStatement>España : Cameo Media S.L., 2009</bf:providerStatement>
+    <bf:providerStatement>©2009</bf:providerStatement>
+    <bf:creditsNote>Credits: Photography, Teo Escamilla.</bf:creditsNote>
+    <bf:performerNote>Cast: Angela Molina, Norman Briski, Luis Politti, Victor Valverde.</bf:performerNote>
+    <bf:note>"Esta película se rodó en el concejo de Llanes (Asturias) y el Bosque de Saja (Cantabria). Esta historia está basada en diversos sucesos y personas que existieron en los mismos montes y bosques en que la película ha sido filmada"--Title screens.</bf:note>
+    <bf:note>Set in the countryside of Asturias and based on real events, the story is of a Basque revolutionary, a separatist who refuses to surrender to the Nationalist government.</bf:note>
+    <bf:note>"No recomendada para menores de 13 años"--Container.</bf:note>
+    <bf:note>Originally produced as a motion picture in 1979.</bf:note>
+    <bf:note>Latin American and Iberian videos in Princeton University Library</bf:note>
+    <bf:note>DVD; PAL; all regions; 1.85:1 (4/3) aspect ratio.</bf:note>
+    <bf:systemNumber rdf:resource="http://www.worldcat.org/oclc/706118294"/>
+    <bf:systemNumber rdf:resource="http://www.worldcat.org/oclc/706118294"/>
+    <bf:ean>
+      <bf:Identifier>
+        <bf:identifierScheme>ean</bf:identifierScheme>
+        <bf:identifierValue>8436027576907</bf:identifierValue>
+      </bf:Identifier>
+    </bf:ean>
+    <bf:videorecordingNumber>
+      <bf:Identifier>
+        <bf:identifierScheme>videorecordingNumber</bf:identifierScheme>
+        <bf:identifierValue>0854</bf:identifierValue>
+        <bf:identifierAssigner>Cameo Media</bf:identifierAssigner>
+      </bf:Identifier>
+    </bf:videorecordingNumber>
+    <bf:mediaCategory rdf:resource="http://id.loc.gov/vocabulary/mediaTypes/v"/>
+    <bf:carrierCategory rdf:resource="http://id.loc.gov/vocabulary/carriers/vd"/>
+    <bf:derivedFrom rdf:resource="http://bibframe.org/resources/QWw1417101824/7817825.marcxml.xml"/>
+    <bf:instanceOf rdf:resource="http://bibframe.org/resources/QWw1417101824/7817825"/>
+  </bf:Instance>
+  <bf:Annotation xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/QWw1417101824/7817825annotation26">
+    <bf:derivedFrom rdf:resource="http://bibframe.org/resources/QWw1417101824/7817825.marcxml.xml"/>
+    <bf:descriptionSource rdf:resource="http://id.loc.gov/vocabulary/organizations/drb"/>
+    <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/oclcq"/>
+    <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/yus"/>
+    <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/oclca"/>
+    <bf:descriptionModifier rdf:resource="http://id.loc.gov/vocabulary/organizations/njp"/>
+    <bf:descriptionConventions rdf:resource="http://id.loc.gov/vocabulary/descriptionConventions/rda"/>
+    <bf:descriptionLanguage rdf:resource="http://id.loc.gov/vocabulary/languages/eng"/>
+    <bf:descriptionConventions rdf:resource="http://id.loc.gov/vocabulary/descriptionConventions/isbd"/>
+    <bf:generationProcess>DLC transform-tool:2014-11-21-T17:14:00</bf:generationProcess>
+    <bf:changeDate>2014-07-18T08:54</bf:changeDate>
+    <bf:annotates rdf:resource="http://bibframe.org/resources/QWw1417101824/7817825"/>
+  </bf:Annotation>
+  <bf:Title xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/QWw1417101824/7817825title5">
+    <bf:titleValue>El corazón del bosque</bf:titleValue>
+  </bf:Title>
+  <bf:Person xmlns:bf="http://bibframe.org/vocab/" rdf:about="http://bibframe.org/resources/QWw1417101824/7817825person7">
+    <bf:label xmlns:relators="http://id.loc.gov/vocabulary/relators/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">Gutiérrez Aragón, Manuel, 1942-</bf:label>
+    <bf:authorizedAccessPoint xmlns:relators="http://id.loc.gov/vocabulary/relators/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">Gutiérrez Aragón, Manuel, 1942-</bf:authorizedAccessPoint>
+    <bf:hasAuthority rdf:resource="http://id.loc.gov/authorities/names/n85122899"/>
+  </bf:Person>
+  <bf:Person xmlns:bf="http://bibframe.org/vocab/" rdf:about="http://bibframe.org/resources/QWw1417101824/7817825person8">
+    <bf:label xmlns:relators="http://id.loc.gov/vocabulary/relators/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">Gutiérrez Aragón, Manuel, 1942-</bf:label>
+    <bf:authorizedAccessPoint xmlns:relators="http://id.loc.gov/vocabulary/relators/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">Gutiérrez Aragón, Manuel, 1942-</bf:authorizedAccessPoint>
+    <bf:hasAuthority rdf:resource="http://id.loc.gov/authorities/names/n85122899"/>
+  </bf:Person>
+  <bf:Person xmlns:bf="http://bibframe.org/vocab/" rdf:about="http://bibframe.org/resources/QWw1417101824/7817825person9">
+    <bf:label xmlns:relators="http://id.loc.gov/vocabulary/relators/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">Megino, Luis</bf:label>
+    <bf:authorizedAccessPoint xmlns:relators="http://id.loc.gov/vocabulary/relators/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">Megino, Luis</bf:authorizedAccessPoint>
+    <bf:hasAuthority rdf:resource="http://id.loc.gov/authorities/names/no2002108195"/>
+  </bf:Person>
+  <bf:Person xmlns:bf="http://bibframe.org/vocab/" rdf:about="http://bibframe.org/resources/QWw1417101824/7817825person10">
+    <bf:label xmlns:relators="http://id.loc.gov/vocabulary/relators/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">Molina, Angela</bf:label>
+    <bf:authorizedAccessPoint xmlns:relators="http://id.loc.gov/vocabulary/relators/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">Molina, Angela</bf:authorizedAccessPoint>
+    <bf:hasAuthority rdf:resource="http://id.loc.gov/authorities/names/no98019693"/>
+  </bf:Person>
+  <bf:Person xmlns:bf="http://bibframe.org/vocab/" rdf:about="http://bibframe.org/resources/QWw1417101824/7817825person11">
+    <bf:label xmlns:relators="http://id.loc.gov/vocabulary/relators/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">Briski, Norman, 1938-</bf:label>
+    <bf:authorizedAccessPoint xmlns:relators="http://id.loc.gov/vocabulary/relators/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">Briski, Norman, 1938-</bf:authorizedAccessPoint>
+    <bf:hasAuthority rdf:resource="http://id.loc.gov/authorities/names/nr96038874"/>
+  </bf:Person>
+  <bf:Person xmlns:bf="http://bibframe.org/vocab/" rdf:about="http://bibframe.org/resources/QWw1417101824/7817825person12">
+    <bf:label xmlns:relators="http://id.loc.gov/vocabulary/relators/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">Politti, Luis, 1933-1980</bf:label>
+    <bf:authorizedAccessPoint xmlns:relators="http://id.loc.gov/vocabulary/relators/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">Politti, Luis, 1933-1980</bf:authorizedAccessPoint>
+    <bf:hasAuthority rdf:resource="http://id.loc.gov/authorities/names/no96002769"/>
+  </bf:Person>
+  <bf:Person xmlns:bf="http://bibframe.org/vocab/" rdf:about="http://bibframe.org/resources/QWw1417101824/7817825person13">
+    <bf:label xmlns:relators="http://id.loc.gov/vocabulary/relators/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">Valverde, Víctor, 1938-</bf:label>
+    <bf:authorizedAccessPoint xmlns:relators="http://id.loc.gov/vocabulary/relators/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">Valverde, Víctor, 1938-</bf:authorizedAccessPoint>
+    <bf:hasAuthority rdf:resource="http://id.loc.gov/authorities/names/no2009164410"/>
+  </bf:Person>
+  <bf:Organization xmlns:bf="http://bibframe.org/vocab/" rdf:about="http://bibframe.org/resources/QWw1417101824/7817825organization14">
+    <bf:label xmlns:relators="http://id.loc.gov/vocabulary/relators/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">Arándano, S.A.</bf:label>
+    <bf:authorizedAccessPoint xmlns:relators="http://id.loc.gov/vocabulary/relators/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">Arándano, S.A.</bf:authorizedAccessPoint>
+    <bf:hasAuthority rdf:resource="http://id.loc.gov/authorities/names/no2014098864"/>
+  </bf:Organization>
+  <bf:Organization xmlns:bf="http://bibframe.org/vocab/" rdf:about="http://bibframe.org/resources/QWw1417101824/7817825organization15">
+    <bf:label xmlns:relators="http://id.loc.gov/vocabulary/relators/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">Cameo Media</bf:label>
+    <bf:authorizedAccessPoint xmlns:relators="http://id.loc.gov/vocabulary/relators/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#">Cameo Media</bf:authorizedAccessPoint>
+    <bf:hasAuthority rdf:resource="http://id.loc.gov/authorities/names/no2005086253"/>
+  </bf:Organization>
+  <bf:IntendedAudience xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/QWw1417101824/7817825intendedaudience16">
+    <bf:audience>"No recomendada para menores de 13 años"--Container.</bf:audience>
+  </bf:IntendedAudience>
+  <bf:Topic xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/QWw1417101824/7817825topic18">
+    <bf:authorizedAccessPoint>Separatists--Spain--País Vasco--Drama</bf:authorizedAccessPoint>
+    <bf:label>Separatists--Spain--País Vasco--Drama</bf:label>
+    <bf:hasAuthority>
+      <madsrdf:Authority>
+        <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+        <madsrdf:authoritativeLabel>Separatists--Spain--País Vasco--Drama</madsrdf:authoritativeLabel>
+        <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/authorities/subjects"/>
+      </madsrdf:Authority>
+    </bf:hasAuthority>
+  </bf:Topic>
+  <bf:Place xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/QWw1417101824/7817825place19">
+    <bf:authorizedAccessPoint>País Vasco (Spain)--Politics and government--20th century--Drama</bf:authorizedAccessPoint>
+    <bf:label>País Vasco (Spain)--Politics and government--20th century--Drama</bf:label>
+    <bf:hasAuthority>
+      <madsrdf:Authority>
+        <rdf:type rdf:resource="http://www.loc.gov/mads/rdf/v1#ComplexSubject"/>
+        <madsrdf:authoritativeLabel>País Vasco (Spain)--Politics and government--20th century--Drama</madsrdf:authoritativeLabel>
+        <madsrdf:isMemberOfMADSScheme rdf:resource="http://id.loc.gov/authorities/subjects"/>
+      </madsrdf:Authority>
+    </bf:hasAuthority>
+  </bf:Place>
+  <bf:Topic xmlns:bf="http://bibframe.org/vocab/" rdf:about="http://bibframe.org/resources/QWw1417101824/7817825topic20">
+    <bf:authorizedAccessPoint xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/">Feature films</bf:authorizedAccessPoint>
+    <bf:label xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/">Feature films</bf:label>
+    <bf:hasAuthority rdf:resource="http://id.loc.gov/authorities/subjects/sh85047538"/>
+  </bf:Topic>
+  <bf:Classification xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/QWw1417101824/7817825classification22">
+    <bf:classificationNumber>PN1997</bf:classificationNumber>
+    <bf:classificationScheme/>
+  </bf:Classification>
+  <bf:Title xmlns:bf="http://bibframe.org/vocab/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#" xmlns:relators="http://id.loc.gov/vocabulary/relators/" rdf:about="http://bibframe.org/resources/QWw1417101824/7817825title30">
+    <bf:titleValue>El corazón del bosque</bf:titleValue>
+  </bf:Title>
+</rdf:RDF>
