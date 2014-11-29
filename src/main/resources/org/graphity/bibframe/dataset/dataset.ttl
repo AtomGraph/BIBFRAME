@@ -1,0 +1,49 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+@prefix ldp:	<http://www.w3.org/ns/ldp#> .
+@prefix dct:	<http://purl.org/dc/terms/> .
+@prefix void:	<http://rdfs.org/ns/void#> .
+@prefix sioc:	<http://rdfs.org/sioc/ns#> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix gc:     <http://graphity.org/gc#> .
+@prefix gp:	<http://graphity.org/gp#> .
+@prefix gcs:	<http://graphity.org/gcs#> .
+@prefix bf:     <http://bibframe.org/vocab/>
+
+<> a sioc:Space, ldp:Container, foaf:Document ;
+    dct:title "Graphity BIBFRAME" ;
+    dct:description "Generic BIBFRAME RDF editor" ;
+    foaf:logo <static/img/graphity-logo.svg> ;
+    foaf:maker <http://graphityhq.com/#company> ;
+    rdfs:seeAlso <sparql>, <http://graphityhq.com>, <http://semantic-web.dk> .
+
+<sparql> a foaf:Document ;
+    sioc:has_space <> ;
+    dct:title "SPARQL endpoint" .
+
+<service> a foaf:Document ;
+    sioc:has_space <> ;
+    dct:title "Graph Store Protocol endpoint" .
+
+# containers
+
+<works> a ldp:Container, sioc:Container, foaf:Document ;
+    gp:slug "works"^^xsd:string ;
+    sioc:has_space <> ;
+    dct:title "Works" .
+
+<instances> a ldp:Container, sioc:Container, foaf:Document ;
+    gp:slug "instances"^^xsd:string ;
+    sioc:has_space <> ;
+    dct:title "Instances" .
+
+<authorities> a ldp:Container, sioc:Container, foaf:Document ;
+    gp:slug "authorities"^^xsd:string ;
+    sioc:has_space <> ;
+    dct:title "Authorities" .
+
+<annotations> a ldp:Container, sioc:Container, foaf:Document ;
+    gp:slug "annotations"^^xsd:string ;
+    sioc:has_space <> ;
+    dct:title "Annotations" .
