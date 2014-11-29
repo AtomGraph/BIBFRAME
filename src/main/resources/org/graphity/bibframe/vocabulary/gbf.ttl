@@ -107,3 +107,149 @@
 	] ;
     rdfs:label "Work" ;
     rdfs:isDefinedBy <#> .
+
+
+# instances
+
+<#InstanceContainer> a owl:Class, gp:Template ;
+    rdfs:subClassOf foaf:Document, gp:Container, sioc:Container, ldp:Container ;
+    gp:uriTemplate "/instances" ;
+    gp:limit 20 ;
+    gp:orderBy "label"^^xsd:string ;
+    gc:defaultMode gc:ListMode ;
+    gc:mode gc:ReadMode, gc:ListMode, gc:TableMode, gc:ThumbnailMode, gc:CreateMode ;
+    spin:query gp:DescribeWithChildren ;
+    rdfs:label "Instance container" ;
+    rdfs:isDefinedBy <#> .
+
+
+<#InstanceItem> a rdfs:Class, owl:Class, gp:Template ;
+    rdfs:subClassOf foaf:Document, gp:Item, sioc:Item ,
+        [ a owl:Restriction ;
+            owl:onProperty sioc:has_container ;
+            owl:allValuesFrom <#InstanceContainer>
+        ] ;
+    gp:uriTemplate "/instances/{slug}" ;
+    gp:skolemTemplate "/{slug}" ;
+    gc:mode gc:ReadMode, gc:EditMode ;
+    gc:defaultMode gc:ReadMode ;
+    gp:cacheControl "public, max-age=3600" ;
+    spin:query gp:Describe ;
+    spin:update gp:DeleteWithTopic ;
+    spin:constructor
+              [ a       sp:Construct ;
+                sp:text """
+                    PREFIX gbf:     <http://graphity.org/bibframe#>
+                    PREFIX rdfs:    <http://www.w3.org/2000/01/rdf-schema#>
+                    PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
+                    PREFIX foaf:    <http://xmlns.com/foaf/0.1/>
+                    PREFIX gp:      <http://graphity.org/gp#>
+                    PREFIX bf:      <http://bibframe.org/vocab/>
+
+                    CONSTRUCT {
+                        ?this a foaf:Document, gbf:InstanceItem ;
+                            foaf:primaryTopic _:instance ;
+                            gp:slug " "^^xsd:string .
+                        _:instance a gbf:Instance, bf:Instance ;
+                            foaf:isPrimaryTopicOf ?this ;
+                            bf:authorizedAccessPoint " " ;
+                            # bf:identifier " " ;
+                            bf:label " " ;
+                            bf:relatedTo _:resource .
+                    }
+                    WHERE {}"""
+              ] ;
+    spin:constraint [ a dqc:MissingProperties ;
+	    sp:arg1 <#InstanceItem> ;
+	    sp:arg2 gp:slug
+	] ;
+    rdfs:label "Instance document" ;
+    rdfs:isDefinedBy <#> .
+
+
+<#Instance> a rdfs:Class, owl:Class ;
+    rdfs:subClassOf bf:Instance,
+        [ a owl:Restriction ;
+            owl:onProperty foaf:isPrimaryTopicOf ;
+            owl:allValuesFrom <#InstanceItem>
+	] ;
+    gp:skolemTemplate "/{isPrimaryTopicOf.slug}" ;
+    spin:constraint [ a dqc:MissingProperties ;
+	    sp:arg1 <#Instance> ;
+	    sp:arg2 bf:label
+	] ;
+    rdfs:label "Instance" ;
+    rdfs:isDefinedBy <#> .
+
+
+# Authorities
+
+<#AuthorityContainer> a owl:Class, gp:Template ;
+    rdfs:subClassOf foaf:Document, gp:Container, sioc:Container, ldp:Container ;
+    gp:uriTemplate "/authorities" ;
+    gp:limit 20 ;
+    gp:orderBy "label"^^xsd:string ;
+    gc:defaultMode gc:ListMode ;
+    gc:mode gc:ReadMode, gc:ListMode, gc:TableMode, gc:ThumbnailMode, gc:CreateMode ;
+    spin:query gp:DescribeWithChildren ;
+    rdfs:label "Authority container" ;
+    rdfs:isDefinedBy <#> .
+
+
+<#AuthorityItem> a rdfs:Class, owl:Class, gp:Template ;
+    rdfs:subClassOf foaf:Document, gp:Item, sioc:Item ,
+        [ a owl:Restriction ;
+            owl:onProperty sioc:has_container ;
+            owl:allValuesFrom <#AuthorityContainer>
+        ] ;
+    gp:uriTemplate "/authorities/{slug}" ;
+    gp:skolemTemplate "/{slug}" ;
+    gc:mode gc:ReadMode, gc:EditMode ;
+    gc:defaultMode gc:ReadMode ;
+    gp:cacheControl "public, max-age=3600" ;
+    spin:query gp:Describe ;
+    spin:update gp:DeleteWithTopic ;
+    spin:constructor
+              [ a       sp:Construct ;
+                sp:text """
+                    PREFIX gbf:     <http://graphity.org/bibframe#>
+                    PREFIX rdfs:    <http://www.w3.org/2000/01/rdf-schema#>
+                    PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
+                    PREFIX foaf:    <http://xmlns.com/foaf/0.1/>
+                    PREFIX gp:      <http://graphity.org/gp#>
+                    PREFIX bf:      <http://bibframe.org/vocab/>
+
+                    CONSTRUCT {
+                        ?this a foaf:Document, gbf:AuthorityItem ;
+                            foaf:primaryTopic _:authority ;
+                            gp:slug " "^^xsd:string .
+                        _:authority a gbf:Authority, bf:Authority ;
+                            foaf:isPrimaryTopicOf ?this ;
+                            bf:authorizedAccessPoint " " ;
+                            # bf:identifier " " ;
+                            bf:label " " ;
+                            bf:relatedTo _:resource .
+                    }
+                    WHERE {}"""
+              ] ;
+    spin:constraint [ a dqc:MissingProperties ;
+	    sp:arg1 <#AuthorityItem> ;
+	    sp:arg2 gp:slug
+	] ;
+    rdfs:label "Authority document" ;
+    rdfs:isDefinedBy <#> .
+
+
+<#Authority> a rdfs:Class, owl:Class ;
+    rdfs:subClassOf bf:Authority,
+        [ a owl:Restriction ;
+            owl:onProperty foaf:isPrimaryTopicOf ;
+            owl:allValuesFrom <#AuthorityItem>
+	] ;
+    gp:skolemTemplate "/{isPrimaryTopicOf.slug}" ;
+    spin:constraint [ a dqc:MissingProperties ;
+	    sp:arg1 <#Authority> ;
+	    sp:arg2 bf:label
+	] ;
+    rdfs:label "Authority" ;
+    rdfs:isDefinedBy <#> .
