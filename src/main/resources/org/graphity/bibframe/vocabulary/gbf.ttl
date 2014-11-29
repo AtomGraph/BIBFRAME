@@ -34,7 +34,8 @@
      spin:query gp:DescribeWithChildren ;
      gp:limit 20 ;
      gc:defaultMode gc:ListMode ;
-     # gc:mode gc:ReadMode, gc:ListMode, gc:TableMode, gc:ThumbnailMode ;
+     gc:mode gc:ReadMode, gc:ListMode ;
+     gc:defaultMode gc:ListMode ;
      rdfs:label "Homepage" ;
      rdfs:isDefinedBy <#> .
 

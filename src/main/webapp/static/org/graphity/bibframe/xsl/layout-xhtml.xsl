@@ -31,6 +31,7 @@ limitations under the License.
     <!ENTITY sp     "http://spinrdf.org/sp#">
     <!ENTITY spin   "http://spinrdf.org/spin#">
     <!ENTITY list   "http://jena.hpl.hp.com/ARQ/list#">
+    <!ENTITY bf     "http://bibframe.org/vocab/">
 ]>
 <xsl:stylesheet version="2.0"
 xmlns="http://www.w3.org/1999/xhtml"
@@ -50,16 +51,17 @@ xmlns:sioc="&sioc;"
 xmlns:sp="&sp;"
 xmlns:ldp="&ldp;"
 xmlns:list="&list;"
+xmlns:bf="&bf;"
 exclude-result-prefixes="#all">
 
     <xsl:import href="../../client/xsl/functions.xsl"/>
     <xsl:import href="../../client/xsl/group-sort-triples.xsl"/>
     <xsl:import href="../../client/xsl/local-xhtml.xsl"/>
 
-    <xsl:preserve-space elements="sioc:content skos:prefLabel"/>
+    <xsl:preserve-space elements="bf:label bf:authorizedAccessPoint bf:authorizedAccessPoint bf:authoritySource"/>
 
     <rdf:Description rdf:about="">
-	<dct:created rdf:datatype="&xsd;dateTime">2014-10-09T23:35:00+01:00</dct:created>
+	<dct:created rdf:datatype="&xsd;dateTime">2014-11-29T20:16:00+01:00</dct:created>
     </rdf:Description>
     
     <xsl:template match="sioc:content/text()" mode="gc:EditMode">

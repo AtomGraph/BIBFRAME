@@ -16,6 +16,7 @@
     dct:description "Generic BIBFRAME RDF editor" ;
     foaf:logo <static/img/graphity-logo.svg> ;
     foaf:maker <http://graphityhq.com/#company> ;
+    foaf:homepage <https://github.com/Graphity/graphity-bibframe> ;
     rdfs:seeAlso <sparql>, <http://graphityhq.com>, <http://semantic-web.dk> .
 
 <sparql> a foaf:Document ;
