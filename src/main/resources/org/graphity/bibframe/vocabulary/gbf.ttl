@@ -182,7 +182,7 @@
     rdfs:isDefinedBy <#> .
 
 
-# Authorities
+# authorities
 
 <#AuthorityContainer> a owl:Class, gp:Template ;
     rdfs:subClassOf foaf:Document, gp:Container, sioc:Container, ldp:Container ;
@@ -252,4 +252,74 @@
 	    sp:arg2 bf:label
 	] ;
     rdfs:label "Authority" ;
+    rdfs:isDefinedBy <#> .
+
+# annotations
+
+<#AnnotationContainer> a owl:Class, gp:Template ;
+    rdfs:subClassOf foaf:Document, gp:Container, sioc:Container, ldp:Container ;
+    gp:uriTemplate "/annotations" ;
+    gp:limit 20 ;
+    gp:orderBy "label"^^xsd:string ;
+    gc:defaultMode gc:ListMode ;
+    gc:mode gc:ReadMode, gc:ListMode, gc:TableMode, gc:ThumbnailMode, gc:CreateMode ;
+    spin:query gp:DescribeWithChildren ;
+    rdfs:label "Annotation container" ;
+    rdfs:isDefinedBy <#> .
+
+<#AnnotationItem> a rdfs:Class, owl:Class, gp:Template ;
+    rdfs:subClassOf foaf:Document, gp:Item, sioc:Item ,
+        [ a owl:Restriction ;
+            owl:onProperty sioc:has_container ;
+            owl:allValuesFrom <#AnnotationContainer>
+        ] ;
+    gp:uriTemplate "/annotations/{slug}" ;
+    gp:skolemTemplate "/{slug}" ;
+    gc:mode gc:ReadMode, gc:EditMode ;
+    gc:defaultMode gc:ReadMode ;
+    gp:cacheControl "public, max-age=3600" ;
+    spin:query gp:Describe ;
+    spin:update gp:DeleteWithTopic ;
+    spin:constructor
+              [ a       sp:Construct ;
+                sp:text """
+                    PREFIX gbf:     <http://graphity.org/bibframe#>
+                    PREFIX rdfs:    <http://www.w3.org/2000/01/rdf-schema#>
+                    PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
+                    PREFIX foaf:    <http://xmlns.com/foaf/0.1/>
+                    PREFIX gp:      <http://graphity.org/gp#>
+                    PREFIX bf:      <http://bibframe.org/vocab/>
+
+                    CONSTRUCT {
+                        ?this a foaf:Document, gbf:AnnotationItem ;
+                            foaf:primaryTopic _:annotation ;
+                            gp:slug " "^^xsd:string .
+                        _:annotation a gbf:Annotation, bf:Annotation ;
+                            foaf:isPrimaryTopicOf ?this ;
+                            bf:authorizedAccessPoint " " ;
+                            # bf:identifier " " ;
+                            bf:label " " ;
+                            bf:relatedTo _:resource .
+                    }
+                    WHERE {}"""
+              ] ;
+    spin:constraint [ a dqc:MissingProperties ;
+	    sp:arg1 <#AnnotationItem> ;
+	    sp:arg2 gp:slug
+	] ;
+    rdfs:label "Annotation document" ;
+    rdfs:isDefinedBy <#> .
+
+<#Annotation> a rdfs:Class, owl:Class ;
+    rdfs:subClassOf bf:Annotation,
+        [ a owl:Restriction ;
+            owl:onProperty foaf:isPrimaryTopicOf ;
+            owl:allValuesFrom <#AnnotationItem>
+	] ;
+    gp:skolemTemplate "/{isPrimaryTopicOf.slug}" ;
+    spin:constraint [ a dqc:MissingProperties ;
+	    sp:arg1 <#Annotation> ;
+	    sp:arg2 bf:label
+	] ;
+    rdfs:label "Annotation" ;
     rdfs:isDefinedBy <#> .
