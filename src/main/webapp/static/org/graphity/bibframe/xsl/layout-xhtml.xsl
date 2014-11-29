@@ -58,27 +58,29 @@ exclude-result-prefixes="#all">
     <xsl:import href="../../client/xsl/group-sort-triples.xsl"/>
     <xsl:import href="../../client/xsl/local-xhtml.xsl"/>
 
-    <xsl:preserve-space elements="bf:label bf:authorizedAccessPoint bf:authorizedAccessPoint bf:authoritySource"/>
+    <xsl:preserve-space elements="bf:label bf:authorizedAccessPoint bf:authorizedAccessPoint bf:authoritySource bf:assertionDate"/>
 
     <rdf:Description rdf:about="">
 	<dct:created rdf:datatype="&xsd;dateTime">2014-11-29T20:16:00+01:00</dct:created>
     </rdf:Description>
     
-    <xsl:template match="sioc:content/text()" mode="gc:EditMode">
-        <textarea name="ol" id="{generate-id(..)}" rows="10" style="font-family: monospace;">
-            <xsl:value-of select="normalize-space(.)"/>
-        </textarea>
-        
-        <xsl:choose>
-            <xsl:when test="../@rdf:datatype">
-                <xsl:apply-templates select="../@rdf:datatype" mode="gc:InlineMode"/>
-            </xsl:when>
-            <xsl:otherwise>
-                <span class="help-inline">Literal</span>
-            </xsl:otherwise>
-        </xsl:choose>
-    </xsl:template>
+    <xsl:template match="bf:authorityAssigner/@rdf:nodeID | bf:referenceAuthority/@rdf:nodeID | bf:relatedTo/@rdf:nodeID | bf:annotationBody/@rdf:nodeID | bf:annotationSource/@rdf:nodeID | bf:annotationAssertedBy/@rdf:nodeID | bf:annotates/@rdf:nodeID" mode="gc:EditMode">
+	<xsl:param name="type" select="'text'" as="xs:string"/>
+	<xsl:param name="id" as="xs:string?"/>
+	<xsl:param name="class" as="xs:string?"/>
 
+        <xsl:call-template name="gc:InputTemplate">
+            <xsl:with-param name="name" select="'ou'"/>
+            <xsl:with-param name="type" select="$type"/>
+            <xsl:with-param name="id" select="$id"/>
+            <xsl:with-param name="class" select="$class"/>
+        </xsl:call-template>
+        
+        <xsl:if test="not($type = 'hidden')">
+            <span class="help-inline">Resource</span>
+        </xsl:if>
+    </xsl:template>
+    
     <xsl:template match="dct:subject/@rdf:resource | dct:subject/@rdf:nodeID" mode="gc:EditMode">
         <select name="ou" id="{generate-id(..)}" multiple="multiple" size="8">
             <xsl:apply-templates select="key('resources-by-type', '&skos;Concept', document(resolve-uri('categories?limit=100', $gp:baseUri)))" mode="gc:OptionMode">

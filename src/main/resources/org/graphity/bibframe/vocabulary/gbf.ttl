@@ -153,7 +153,7 @@
                             gp:slug " "^^xsd:string .
                         _:instance a gbf:Instance, bf:Instance ;
                             foaf:isPrimaryTopicOf ?this ;
-                            rdf:type ?type
+                            a ?type ;
                             bf:authorizedAccessPoint " " ;
                             # bf:identifier " " ;
                             bf:label " " ;
@@ -227,7 +227,7 @@
                             gp:slug " "^^xsd:string .
                         _:authority a gbf:Authority, bf:Authority ;
                             foaf:isPrimaryTopicOf ?this ;
-                            rdf:type ?type
+                            a ?type ;
                             bf:authorizedAccessPoint " " ;
                             # bf:identifier " " ;
                             bf:label " " ;
@@ -302,7 +302,7 @@
                             gp:slug " "^^xsd:string .
                         _:annotation a gbf:Annotation, bf:Annotation ;
                             foaf:isPrimaryTopicOf ?this ;
-                            rdf:type ?type
+                            a ?type ;
                             bf:authorizedAccessPoint " " ;
                             # bf:identifier " " ;
                             bf:label " " ;
