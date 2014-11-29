@@ -56,7 +56,7 @@ exclude-result-prefixes="#all">
 
     <xsl:import href="../../client/xsl/functions.xsl"/>
     <xsl:import href="../../client/xsl/group-sort-triples.xsl"/>
-    <xsl:import href="../../client/xsl/local-xhtml.xsl"/>
+    <xsl:import href="../../client/xsl/global-xhtml.xsl"/>
 
     <xsl:preserve-space elements="bf:label bf:authorizedAccessPoint bf:authorizedAccessPoint bf:authoritySource bf:assertionDate"/>
 
