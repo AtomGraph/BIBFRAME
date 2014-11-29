@@ -153,6 +153,7 @@
                             gp:slug " "^^xsd:string .
                         _:instance a gbf:Instance, bf:Instance ;
                             foaf:isPrimaryTopicOf ?this ;
+                            rdf:type ?type
                             bf:authorizedAccessPoint " " ;
                             # bf:identifier " " ;
                             bf:label " " ;
@@ -226,6 +227,7 @@
                             gp:slug " "^^xsd:string .
                         _:authority a gbf:Authority, bf:Authority ;
                             foaf:isPrimaryTopicOf ?this ;
+                            rdf:type ?type
                             bf:authorizedAccessPoint " " ;
                             # bf:identifier " " ;
                             bf:label " " ;
@@ -300,10 +302,16 @@
                             gp:slug " "^^xsd:string .
                         _:annotation a gbf:Annotation, bf:Annotation ;
                             foaf:isPrimaryTopicOf ?this ;
+                            rdf:type ?type
                             bf:authorizedAccessPoint " " ;
                             # bf:identifier " " ;
                             bf:label " " ;
-                            bf:relatedTo _:resource .
+                            bf:relatedTo _:resource ;
+                            bf:annotates _:annotates ;
+                            bf:annotationAssertedBy _:annotationAssertedBy ;
+                            bf:annotationBody _:annotationBody ;
+                            bf:annotationSource _:annotationSource ;
+                            bf:assertionDate " " .
                     }
                     WHERE {}"""
               ] ;
