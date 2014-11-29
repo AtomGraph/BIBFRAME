@@ -22,7 +22,7 @@
 @prefix bf:     <http://bibframe.org/vocab/> .
 
 <#> a owl:Ontology ;
-    owl:imports gcs:, void:, foaf:, dqc: ;
+    owl:imports gcs:, void:, foaf:, dqc:, bf: ;
     rdfs:label "Blog sitemap" ;
     dct:created "2014-10-21T01:53:00+01:00"^^xsd:dateTime .
 
