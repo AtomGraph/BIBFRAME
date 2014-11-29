@@ -81,6 +81,7 @@ exclude-result-prefixes="#all">
         </xsl:if>
     </xsl:template>
     
+    <!--
     <xsl:template match="dct:subject/@rdf:resource | dct:subject/@rdf:nodeID" mode="gc:EditMode">
         <select name="ou" id="{generate-id(..)}" multiple="multiple" size="8">
             <xsl:apply-templates select="key('resources-by-type', '&skos;Concept', document(resolve-uri('categories?limit=100', $gp:baseUri)))" mode="gc:OptionMode">
@@ -91,5 +92,6 @@ exclude-result-prefixes="#all">
 
         <span class="help-inline">Resource</span>
     </xsl:template>
+    -->
     
 </xsl:stylesheet>
