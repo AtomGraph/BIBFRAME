@@ -228,7 +228,10 @@
                             bf:authorizedAccessPoint " " ;
                             # bf:identifier " " ;
                             bf:label " " ;
-                            bf:relatedTo _:resource .
+                            bf:relatedTo _:resource ;
+                            bf:authorityAssigner _:authorityAssigner ;
+                            bf:authoritySource " " ;
+                            bf:referenceAuthority _:referenceAuthority .
                     }
                     WHERE {}"""
               ] ;
