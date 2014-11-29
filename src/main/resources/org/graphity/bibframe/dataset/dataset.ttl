@@ -9,7 +9,7 @@
 @prefix gc:     <http://graphity.org/gc#> .
 @prefix gp:	<http://graphity.org/gp#> .
 @prefix gcs:	<http://graphity.org/gcs#> .
-@prefix bf:     <http://bibframe.org/vocab/>
+@prefix bf:     <http://bibframe.org/vocab/> .
 
 <> a sioc:Space, ldp:Container, foaf:Document ;
     dct:title "Graphity BIBFRAME" ;
