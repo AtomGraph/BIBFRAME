@@ -157,7 +157,24 @@
                             bf:authorizedAccessPoint " " ;
                             # bf:identifier " " ;
                             bf:label " " ;
-                            bf:relatedTo _:resource .
+                            bf:relatedTo _:resource ;
+                            bf:changeDate " " ;
+                            bf:issn _:issn ;
+                            bf:descriptionConventions _:descriptionConventions ;
+                            bf:descriptionLanguage _:descriptionLanguage ;
+                            bf:descriptionSource _:descriptionSource ;
+                            bf:language _:language ;
+                            bf:titleVariation _:titleVariation ;
+                            bf:publication _:publication ;
+                            bf:dimensions " " ;
+                            bf:frequencyNote " " ;
+                            bf:mediaCategory _:mediaCategory ;
+                            bf:carrierCategory _:carrierCategory ;
+                            bf:note " " ;
+                            bf:isbn _:isbn ;
+                            bf:modeOfIssuance " " .
+
+
                     }
                     WHERE {}"""
               ] ;
