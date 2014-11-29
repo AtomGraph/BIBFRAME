@@ -58,13 +58,13 @@ exclude-result-prefixes="#all">
     <xsl:import href="../../client/xsl/group-sort-triples.xsl"/>
     <xsl:import href="../../client/xsl/global-xhtml.xsl"/>
 
-    <xsl:preserve-space elements="bf:label bf:authorizedAccessPoint bf:authorizedAccessPoint bf:authoritySource bf:assertionDate"/>
+    <xsl:preserve-space elements="bf:label bf:authorizedAccessPoint bf:authorizedAccessPoint bf:authoritySource bf:assertionDate bf:modeOfIssuance bf:note bf:changeDate bf:dimensions bf:frequencyNote"/>
 
     <rdf:Description rdf:about="">
 	<dct:created rdf:datatype="&xsd;dateTime">2014-11-29T20:16:00+01:00</dct:created>
     </rdf:Description>
     
-    <xsl:template match="bf:authorityAssigner/@rdf:nodeID | bf:referenceAuthority/@rdf:nodeID | bf:relatedTo/@rdf:nodeID | bf:annotationBody/@rdf:nodeID | bf:annotationSource/@rdf:nodeID | bf:annotationAssertedBy/@rdf:nodeID | bf:annotates/@rdf:nodeID" mode="gc:EditMode">
+    <xsl:template match="bf:authorityAssigner/@rdf:nodeID | bf:referenceAuthority/@rdf:nodeID | bf:relatedTo/@rdf:nodeID | bf:annotationBody/@rdf:nodeID | bf:annotationSource/@rdf:nodeID | bf:annotationAssertedBy/@rdf:nodeID | bf:annotates/@rdf:nodeID | bf:carrierCategory/@rdf:nodeID | bf:descriptionConventions/@rdf:nodeID | bf:descriptionLanguage/@rdf:nodeID | bf:descriptionSource/@rdf:nodeID | bf:isbn/@rdf:nodeID | bf:issn/@rdf:nodeID | bf:language/@rdf:nodeID | bf:mediaCategory/@rdf:nodeID | bf:publication/@rdf:nodeID | bf:titleVariation/@rdf:nodeID" mode="gc:EditMode">
 	<xsl:param name="type" select="'text'" as="xs:string"/>
 	<xsl:param name="id" as="xs:string?"/>
 	<xsl:param name="class" as="xs:string?"/>
